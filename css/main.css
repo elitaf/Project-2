@@ -54,6 +54,28 @@ code, samp {
 	padding: 0.5rem;
 }
 
+div#fixedheader {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#333;
+	padding:10px;
+}
+
+div#fixedfooter {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#333;
+	padding:8px;
+	text-align: center;
+	font-size: 0.1rem;
+}
+
 .nav-main-item {
 	display: inline-block;
 	color: white;
