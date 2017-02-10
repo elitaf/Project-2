@@ -213,3 +213,37 @@ button {
 
 #fruit3 button {
 }
+
+/*options2.html*/
+#topimage {
+	width: 95%;
+	height: 300px;
+	background-color: lightgray;
+	margin-top: 45px;
+	margin-bottom: 0;
+	margin-right: 5px;
+	margin-left: 10px;
+	border-radius: 15px;
+
+	color: white;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+
+#toppings button {
+	width: 95%;
+	margin-top: 25px;
+	margin-bottom: 0;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
