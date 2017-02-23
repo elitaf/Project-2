@@ -110,6 +110,14 @@ div#fixedfooter {
 	background-color: #FFEBCD;
 }
 
+#revealonclick{
+    display: none;
+}
+
+#revealonclick:target{
+    display: inline;
+}
+
 #aboutus {
 	width: 90%;
 	height: 300px;
