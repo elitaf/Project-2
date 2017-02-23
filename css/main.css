@@ -246,7 +246,21 @@ button {
 	margin-right: 5px;
 }
 
+.images-1, .images-2, .images-3, .images-4, .images-5, 		/*displays drink images*/
+.images-6, .images-7, .images-8, .images-9 {
+	display: none
+}
 
+.active {
+	display: inline;
+}
+
+.Nextbutton {						/*button to click for next page*/
+	position: right;
+	margin-left: 250px;
+	margin-top: 100px;
+
+}
 
 
 
