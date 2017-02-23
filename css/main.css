@@ -5,9 +5,9 @@
 }
 
 body {
-	font-family: "Quan", Verdana, sans-serif;
+	font-family: "OpenSans-Light", sans-serif;
 	margin: 1rem;
-	font-size: 1.25rem;
+	font-size: 1rem;
 }
 
 h1 {
@@ -18,13 +18,13 @@ h1 {
 }
 
 h2 {
-	font-size: 2.25rem;
+	font-size: 1.25rem;
 	margin-bottom: 0;
 	width: 100%;
 }
 
 h3 {
-	font-size: 1.6rem;
+	font-size: 1rem;
 	margin-bottom: 0;
 }
 
@@ -40,10 +40,6 @@ img {
 
 figure {
 	margin: 0;
-}
-
-figcaption {
-	font-style: italic;
 }
 
 a {
@@ -86,39 +82,41 @@ div#fixedfooter {
 
 .nav-main-item {
 	display: inline-block;
-	color: white;
-	background-color: rgb(250,100,75);
-	font-size: 1.5rem;
-	padding: 0.25rem 0.5rem;
+	color: black;
+	background-color: #FFCBA4;
+	font-size: 1.10rem;
+	font-weight: 600;
+	padding: 0.30rem 0.9rem;
 	text-decoration: none;
 	transition: background-color 0.5s ease-out;
 	width: 100%;
+	text-align: center;
 }
 
 .bg1 {
-	background-color: purple;
+	background-color: #FFCBA4;
 }
 
 .bg2 {
-	background-color: green;
+	background-color: #FFCBA4;
 }
 
 .bg3 {
-	background-color: blue;
+	background-color: #FFCBA4;
 }
 
 .nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
-	color: white;
-	background-color: rgb(50,50,50);
+	color: black;
+	background-color: #FFEBCD;
 }
 
 #aboutus {
 	width: 90%;
 	height: 300px;
-	background-color: blue;
+	background-color: lightgray;
 	margin-top: 20px;
 	margin-bottom: 0;
-	margin-left: 10px;
+	margin-left: 15px;
 	margin-right: 5px;
 	border-radius: 15px;
 
@@ -133,7 +131,7 @@ div#fixedfooter {
 	background-color: lightgray;
 	margin-top: 20px;
 	margin-bottom: 0;
-	margin-left: 10px;
+	margin-left: 15px;
 	margin-right: 5px;
 	border-radius: 15px;
 
@@ -145,10 +143,10 @@ div#fixedfooter {
 #bbt {
 	width: 90%;
 	height: 300px;
-    background-color: red;
+    background-color: lightgray;
     margin-top: 20px;
 	margin-bottom: 0;
-	margin-left: 10px;
+	margin-left: 15px;
 	margin-right: 5px;
     border-radius: 15px;
 
@@ -160,10 +158,10 @@ div#fixedfooter {
 #stamps {
 	width: 90%;
 	height: 300px;
-    background-color: pink;
+    background-color: lightgray;
     margin-top: 20px;
-	margin-bottom: 0;
-	margin-left: 10px;
+	margin-bottom: 30px;
+	margin-left: 15px;
 	margin-right: 5px;
     border-radius: 15px;
 
@@ -172,29 +170,59 @@ div#fixedfooter {
 	padding-top: 20px;
 }
 
-#aboutus {
+button {
 	width: 90%;
-	height: 300px;
-	background-color: blue;
-	margin-top: 20px;
+	margin-top: 45px;
 	margin-bottom: 0;
-	margin-left: 10px;
+	margin-left: 15px;
 	margin-right: 5px;
-	border-radius: 15px;
-
-	color: white;
-	padding-left: 10px;
-	padding-top: 20px;
+	height: 50px;
+	color: black;
+	background: white;
+	border-radius: 12px;
+	border: 1px solid black; 
 }
 
-#deals {
-	width: 90%;
+.button:active, .button:hover, .button:focus, {
+	background-color: #FFEBCD;
+	color: lightblue;
+}
+
+.button-selected{
+	border: 4px solid red;
+}
+
+/**{
+    outline: none;
+}*/
+
+#option1 button {
+}
+
+#option2 button {
+}
+
+#option3 button {
+}
+
+#fruit1 button {
+}
+
+#fruit2 button {
+}
+
+#fruit3 button {
+}
+
+/*options2.html*/
+#topimage {
+	width: 95%;
 	height: 300px;
 	background-color: lightgray;
-	margin-top: 20px;
+	margin-top: 45px;
 	margin-bottom: 0;
-	margin-left: 10px;
 	margin-right: 5px;
+	margin-left: 10px;
 	border-radius: 15px;
 
 	color: white;
@@ -202,33 +230,20 @@ div#fixedfooter {
 	padding-top: 20px;
 }
 
-#bbt {
-	width: 90%;
-	height: 300px;
-    background-color: red;
-    margin-top: 20px;
+#toppings button {
+	width: 95%;
+	margin-top: 25px;
 	margin-bottom: 0;
 	margin-left: 10px;
 	margin-right: 5px;
-    border-radius: 15px;
-
-    color: white;
-	padding-left: 10px;
-	padding-top: 20px;
 }
 
-#stamps {
-	width: 90%;
-	height: 300px;
-    background-color: pink;
-    margin-top: 20px;
-	margin-bottom: 0;
-	margin-left: 10px;
-	margin-right: 5px;
-    border-radius: 15px;
 
-    color: white;
-	padding-left: 10px;
-	padding-top: 20px;
-	
-}
+
+
+
+
+
+
+
+
