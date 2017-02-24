@@ -105,13 +105,52 @@ a:active, a:hover, a:focus {
 	color: black;
 }
 
+.aboutus {													/*on about us page, font color indicates*/
+	display: inline-block;
+	font-family: "HaloHandletter", sans-serif;
+	font-size: 2.1rem;
+	font-weight: 600;
+	padding-top: 0.02rem;
+	text-decoration: none;
+	width: 100%;
+	text-align: center;
+	color: #FFEBCD;
+}
+
 .bg1 {
+	display: inline-block;
+	font-family: "HaloHandletter", sans-serif;
+	font-size: 2.1rem;
+	font-weight: 600;
+	padding-top: 0.02rem;
+	text-decoration: none;
+	width: 100%;
+	text-align: center;
+	color: #FFEBCD;
 }
 
 .bg2 {
+	display: inline-block;
+	font-family: "HaloHandletter", sans-serif;
+	font-size: 2.1rem;
+	font-weight: 600;
+	padding-top: 0.02rem;
+	text-decoration: none;
+	width: 100%;
+	text-align: center;
+	color: #FFEBCD;
 }
 
 .bg3 {
+	display: inline-block;
+	font-family: "HaloHandletter", sans-serif;
+	font-size: 2.1rem;
+	font-weight: 600;
+	padding-top: 0.02rem;
+	text-decoration: none;
+	width: 100%;
+	text-align: center;
+	color: #FFEBCD;
 }
 
 .nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
@@ -272,14 +311,26 @@ button {
 	font-family: "HaloHandletter", sans-serif;
 	font-size: 2em;					
 	position: right;
-	margin-left: 80%;
+	margin-left: 70%;
 	margin-right: 20%;
-	margin-top: 50px;
-	margin-bottom: 20px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 .Nextbutton:hover, .Nextbutton:active, {
 	color: #FFEBCD;
+}
+
+.Nextbutton_op {		
+	display: inline-block;
+	text-decoration: none;							/*button to click for next page*/
+	font-family: "HaloHandletter", sans-serif;
+	font-size: 2em;					
+	position: right;
+	margin-left: 90%;
+	margin-right: 20%;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 .sodabubble {
@@ -319,6 +370,18 @@ button {
 	font-size: 2em;					
 	position: right;
 	margin-left: 50%;
+	margin-right: 20%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.Addtocart {
+	display: inline-block;
+	text-decoration: none;							/*button to click for next page*/
+	font-family: "HaloHandletter", sans-serif;
+	font-size: 2em;					
+	position: right;
+	margin-left: 43%;
 	margin-right: 20%;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -365,4 +428,34 @@ button {
 	margin-right: 7%;
 	margin-top: 50%;
 }
+
+#milk-tea, #green-tea, #red-tea, #black-tea, #juice, #soda, #coffee, #calpis, #mocktail {
+	margin-top: 30px;
+	margin-left: 15%;
+}
+
+#pearls, #sugar, #ice, #jelly, #none {
+	margin-top: 80px;
+	margin-right: 20%
+	margin-left: 5%;
+}
+
+#dealbox{
+	position: absolute;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	margin-left: 40%;
+	margin-right: 15%;
+
+	color: black;
+}
+
+.deals {
+	width: 50%;
+	height: 50%;
+	margin-left: 0%;
+	margin-right: 15%;
+
+}
+
 
