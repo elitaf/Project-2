@@ -231,10 +231,6 @@ button {
 .button-selected {
 }
 
-/**{
-    outline: none;
-}*/
-
 #option1 button {
 }
 
@@ -374,8 +370,8 @@ button {
 #textbox {
 	width: 400px;
 	height: 600px;
-	margin-top: 20px;
-	margin-left: 150px;
+/*	margin-top: 20px;
+	margin-left: 150px;*/
 	background-color: lightgray;
 }
 
