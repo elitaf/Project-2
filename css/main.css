@@ -92,7 +92,7 @@ a:active, a:hover, a:focus {
 	font-family: "HaloHandletter", sans-serif;
 	font-size: 2.1rem;
 	font-weight: 600;
-	padding-top: 0.5rem;
+	padding-top: 0.02rem;
 	text-decoration: none;
 	/*transition: background-color 0.5s ease-out;*/
 	width: 100%;
@@ -351,37 +351,56 @@ button {
 }
 
 .PlaceOrder {
+	display: inline-block;
+	text-decoration: none;							/*button to click for next page*/
 	font-family: "HaloHandletter", sans-serif;
 	font-size: 2em;					
 	position: right;
-	margin-left: 245px;
-	margin-top: 25px;
+	margin-left: 50%;
+	margin-right: 20%;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-#purchase {
-	width: 30%;
-	height: 30%;
-	margin-left: 5%;
-	margin-right: 15px;
-	border: none;
+#receipt {
+	font-family: "OpenSans-Light", sans-serif;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	font-size: 1rem;
+}
 
+#purchaseimg {
+	border: none;
 }
 
 #textbox {
-	width: 400px;
-	height: 600px;
-/*	margin-top: 20px;
-	margin-left: 150px;*/
+	width: 300px;
+	height: 400px;
+	margin-top: 80px;
 	background-color: lightgray;
+	font-size: 0.9em;
 }
 
 .alignleft {
 	float: left;
-	margin-left: 5%;
-}
-.alignright {
-	float: right;
-	margin-right: 5%;
+	margin-left: 7%;
 }
 
+.alignright {
+	float: right;
+	margin-right: 7%;
+}
+
+.alignleft_total {
+	float: left;
+	margin-left: 7%;
+	margin-top: 50%;
+}
+
+.alignright_total {
+	float: right;
+	margin-right: 7%;
+	margin-top: 50%;
+}
 
