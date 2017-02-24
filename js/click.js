@@ -107,4 +107,45 @@ $(document).ready(function(){
 		$('.images-8').removeClass("active");
 		$('.images-9').addClass("active");
 	});
+
+	$('#pearls').click(function(){
+		$('.images-10').addClass("active");
+		$('.images-11').removeClass("active");
+		$('.images-12').removeClass("active");
+		$('.images-13').removeClass("active");
+		$('.images-14').removeClass("active");
+	});
+
+	$('#sugar').click(function(){
+		$('.images-10').removeClass("active");
+		$('.images-11').addClass("active");
+		$('.images-12').removeClass("active");
+		$('.images-13').removeClass("active");
+		$('.images-14').removeClass("active");
+	});
+
+	$('#ice').click(function(){
+		$('.images-10').removeClass("active");
+		$('.images-11').removeClass("active");
+		$('.images-12').addClass("active");
+		$('.images-13').removeClass("active");
+		$('.images-14').removeClass("active");
+	});
+
+	$('#jelly').click(function(){
+		$('.images-10').removeClass("active");
+		$('.images-11').removeClass("active");
+		$('.images-12').removeClass("active");
+		$('.images-13').addClass("active");
+		$('.images-14').removeClass("active");
+	});
+
+	$('#none').click(function(){
+		$('.images-10').removeClass("active");
+		$('.images-11').removeClass("active");
+		$('.images-12').removeClass("active");
+		$('.images-13').removeClass("active");
+		$('.images-14').addClass("active");
+	});
+
 });

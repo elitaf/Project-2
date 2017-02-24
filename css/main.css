@@ -4,10 +4,44 @@
 	box-sizing: border-box;
 }
 
+div#fixedheader {
+	position: fixed;
+	background: #333;
+	padding: 10px;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 99;
+}
+
+div#fixedfooter {
+	position: fixed;
+	background: #333;
+	padding: 8px;
+	text-align: center;
+	font-size: 0.1rem;
+	color: #CCC;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+
 body {
 	font-family: "OpenSans-Light", sans-serif;
 	margin: 1rem;
 	font-size: 1rem;
+}
+
+.bplogo {
+	position: relative;
+	display: block;
+	height: 120px; 
+	width: 120px;
+	border: none;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h1 {
@@ -37,7 +71,6 @@ p, ol, ul {
 img {
 	height: auto; 
 	max-width: 100%;
-	border: 1px solid black; 
 }
 
 figure {
@@ -54,62 +87,30 @@ a:active, a:hover, a:focus {
 	text-decoration: none;
 }
 
-code, samp {
-	display: block;
-	background-color: rgb(230,230,230);
-	padding: 0.5rem;
-}
-
-div#fixedheader {
-	position:fixed;
-	top:0px;
-	left:0px;
-	width:100%;
-	color:#CCC;
-	background:#333;
-	padding:10px;
-}
-
-div#fixedfooter {
-	position:fixed;
-	bottom:0px;
-	left:0px;
-	width:100%;
-	color:#CCC;
-	background:#333;
-	padding:8px;
-	text-align: center;
-	font-size: 0.1rem;
-}
-
 .nav-main-item {
 	display: inline-block;
-	color: black;
-	background-color: #FFCBA4;
-	font-size: 1.10rem;
+	font-family: "HaloHandletter", sans-serif;
+	font-size: 2.1rem;
 	font-weight: 600;
-	padding: 0.30rem 0.9rem;
+	padding-top: 0.5rem;
 	text-decoration: none;
-	transition: background-color 0.5s ease-out;
+	/*transition: background-color 0.5s ease-out;*/
 	width: 100%;
 	text-align: center;
+	color: black;
 }
 
 .bg1 {
-	background-color: #FFCBA4;
 }
 
 .bg2 {
-	background-color: #FFCBA4;
 }
 
 .bg3 {
-	background-color: #FFCBA4;
 }
 
 .nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
-	color: black;
-	background-color: #FFEBCD;
+	color: #FFEBCD;
 }
 
 #revealonclick{
@@ -118,6 +119,11 @@ div#fixedfooter {
 
 #revealonclick:target{
     display: inline;
+}
+
+.grid-col-1of1 {
+	align-content: center;	
+	width: 50%;
 }
 
 #aboutus {
@@ -135,6 +141,16 @@ div#fixedfooter {
 	padding-top: 20px;
 }
 
+#notaboutus {
+	width: 90%;
+	height: 300px;
+	background-color: none;
+	margin-top: 20px;
+	margin-bottom: 0;
+	margin-left: 15px;
+	margin-right: 5px;
+}
+
 #bbtpictures {
 	opacity: 100; 
 	margin-left: 15px;
@@ -145,19 +161,11 @@ div#fixedfooter {
 	opacity: 0 
 }
 
-			/*			#LayoutDiv1 .dropdown {
-						    display:none;    
-							width:100%;
-						    height:100px;
-							margin-bottom:20px;
-						}*/
-
-
 #LayoutDiv1 .press {
-    display:inline-block;
+    display: inline-block;
 }
 
-#deals {
+/*#deals {
 	width: 90%;
 	height: 300px;
 	background-color: lightgray;
@@ -200,7 +208,7 @@ div#fixedfooter {
     color: white;
 	padding-left: 10px;
 	padding-top: 20px;
-}
+}*/
 
 button {
 	width: 90%;
@@ -220,8 +228,7 @@ button {
 	color: lightblue;
 }
 
-.button-selected{
-	border: 4px solid red;
+.button-selected {
 }
 
 /**{
@@ -262,34 +269,123 @@ button {
 	padding-top: 20px;
 }
 
-#toppings button {
-	width: 95%;
-	margin-top: 25px;
-	margin-bottom: 0;
-	margin-left: 10px;
-	margin-right: 5px;
+.soda {
+	border: none;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+	height: 100%;
 }
 
+#toppings button {
+	width: 80px;
+	margin-top: 20px;
+	margin-bottom: 0;
+	margin-left: 35%;
+	margin-right: 5%;
+}
+
+#toppings-option button {
+	width: 70px;
+	margin-top: 80px;
+	margin-bottom: 0;
+	margin-left: 35%;
+	margin-right: 5%;
+}
+
+
+#nonetoppings button {
+	width: 70px;
+	margin-top: 80px;
+	margin-bottom: 0;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+
 .images-1, .images-2, .images-3, .images-4, .images-5, 		/*displays drink images*/
-.images-6, .images-7, .images-8, .images-9 {
-	display: none
+.images-6, .images-7, .images-8, .images-9, .images-10,
+.images-11, .images-12, .images-13, .images-14 {
+	display: none;
+	border: none;
+
 }
 
 .active {
 	display: inline;
 }
 
-.Nextbutton {						/*button to click for next page*/
+.Nextbutton {		
+	display: inline-block;
+	text-decoration: none;							/*button to click for next page*/
+	font-family: "HaloHandletter", sans-serif;
+	font-size: 2em;					
 	position: right;
-	margin-left: 250px;
-	margin-top: 100px;
+	margin-left: 80%;
+	margin-right: 20%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.Nextbutton:hover, .Nextbutton:active, {
+	color: #FFEBCD;
+}
+
+.sodabubble {
+	border: none;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+	height: 100%;
+}
+
+.textbox_p {
+	width: 60%;
+	height: 300px;
+	background-color: lightgray;
+	margin-top: 50px;
+	margin-bottom: 0;
+	margin-left: 15%;
+	margin-right: 15%;
+
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 60px;
+}
+
+.PlaceOrder {
+	font-family: "HaloHandletter", sans-serif;
+	font-size: 2em;					
+	position: right;
+	margin-left: 245px;
+	margin-top: 25px;
+}
+
+#purchase {
+	width: 30%;
+	height: 30%;
+	margin-left: 5%;
+	margin-right: 15px;
+	border: none;
 
 }
 
+#textbox {
+	width: 400px;
+	height: 600px;
+	margin-top: 20px;
+	margin-left: 150px;
+	background-color: lightgray;
+}
 
-
-
-
-
+.alignleft {
+	float: left;
+	margin-left: 5%;
+}
+.alignright {
+	float: right;
+	margin-right: 5%;
+}
 
 
