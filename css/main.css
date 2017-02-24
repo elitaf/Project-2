@@ -11,10 +11,12 @@ body {
 }
 
 h1 {
-	font-size: 2rem;
+	font-family: "HaloHandletter", sans-serif;
+	font-size: 4rem;
 	margin-bottom: 20px;
 	margin-top: 40px;
 	text-align: center;
+	text-decoration: underline;
 }
 
 h2 {
