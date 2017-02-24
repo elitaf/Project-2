@@ -38,7 +38,7 @@ body {
 	height: 120px; 
 	width: 120px;
 	border: none;
-	margin-top: 30px;
+	margin-top: 35px;
 	margin-right: 0px;
 	margin-left: auto;
 	margin-right: auto;
@@ -54,7 +54,8 @@ h1 {
 }
 
 h2 {
-	font-size: 1.25rem;
+	font-family: "OpenSans-Light", sans-serif;
+	font-size: 1.2rem;
 	margin-bottom: 0;
 	width: 100%;
 }
@@ -62,6 +63,10 @@ h2 {
 h3 {
 	font-size: 1rem;
 	margin-bottom: 0;
+}
+
+element.style {
+	clear: both;
 }
 
 p, ol, ul {
@@ -80,6 +85,7 @@ figure {
 a {
 	color: rgb(200,0,0);
 	transition: color 0.5s;
+	text-decoration: none; 
 }
 
 a:active, a:hover, a:focus {
@@ -94,7 +100,6 @@ a:active, a:hover, a:focus {
 	font-weight: 600;
 	padding-top: 0.02rem;
 	text-decoration: none;
-	/*transition: background-color 0.5s ease-out;*/
 	width: 100%;
 	text-align: center;
 	color: black;
@@ -117,7 +122,7 @@ a:active, a:hover, a:focus {
     display: none;
 }
 
-#revealonclick:target{
+#revealonclick:target {
     display: inline;
 }
 
@@ -127,18 +132,20 @@ a:active, a:hover, a:focus {
 }
 
 #aboutus {
-	width: 90%;
-	height: 300px;
-	background-color: lightgray;
-	margin-top: 20px;
-	margin-bottom: 0;
-	margin-left: 15px;
-	margin-right: 5px;
-	border-radius: 15px;
+	position: relative;
+	width: 60%;
+	height: 55%;
+	background-color: #d6d8db;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
 
-	color: white;
-	padding-left: 10px;
+	color: black;
+	padding-left: 30px;
 	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
 }
 
 #notaboutus {
@@ -157,6 +164,14 @@ a:active, a:hover, a:focus {
 	margin-top: 25px;
 }
 
+#bbtpictures2 {
+	opacity: 100; 
+	margin-left: 30%;
+	margin-top: 25px;
+	width: 50%;
+	height: 50%;
+}
+
 .milk-tea:active .img-class, .milk-tea:focus .img-class { 
 	opacity: 0 
 }
@@ -165,50 +180,6 @@ a:active, a:hover, a:focus {
     display: inline-block;
 }
 
-/*#deals {
-	width: 90%;
-	height: 300px;
-	background-color: lightgray;
-	margin-top: 20px;
-	margin-bottom: 0;
-	margin-left: 15px;
-	margin-right: 5px;
-	border-radius: 15px;
-
-	color: white;
-	padding-left: 10px;
-	padding-top: 20px;
-}
-
-#bbt {
-	width: 90%;
-	height: 300px;
-    background-color: lightgray;
-    margin-top: 20px;
-	margin-bottom: 0;
-	margin-left: 15px;
-	margin-right: 5px;
-    border-radius: 15px;
-
-    color: white;
-	padding-left: 10px;
-	padding-top: 20px;
-}
-
-#stamps {
-	width: 90%;
-	height: 300px;
-    background-color: lightgray;
-    margin-top: 20px;
-	margin-bottom: 30px;
-	margin-left: 15px;
-	margin-right: 5px;
-    border-radius: 15px;
-
-    color: white;
-	padding-left: 10px;
-	padding-top: 20px;
-}*/
 
 button {
 	width: 90%;
@@ -247,22 +218,6 @@ button {
 }
 
 #fruit3 button {
-}
-
-/*options2.html*/
-#topimage {
-	width: 95%;
-	height: 300px;
-	background-color: lightgray;
-	margin-top: 45px;
-	margin-bottom: 0;
-	margin-right: 5px;
-	margin-left: 10px;
-	border-radius: 15px;
-
-	color: white;
-	padding-left: 10px;
-	padding-top: 20px;
 }
 
 .soda {
@@ -335,19 +290,26 @@ button {
 	height: 100%;
 }
 
-.textbox_p {
-	width: 60%;
-	height: 300px;
-	background-color: lightgray;
-	margin-top: 50px;
-	margin-bottom: 0;
+.textbox_p {								/*Order.html*/
+	width: 300px;
+	height: 280px;
+	margin-top: 80px;
 	margin-left: 15%;
-	margin-right: 15%;
+	background-color: #d6d8db;
+	font-size: 0.9em;
+}
 
-	color: black;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 60px;
+#order {
+	font-family: "OpenSans-Light", sans-serif;
+	padding-top: 33px;
+	padding-bottom: 8px;
+	padding-left: 15px;
+	font-size: 1rem;
+}
+
+.ordertext {
+	padding-left: 15px;
+	padding-right: 10px;
 }
 
 .PlaceOrder {
@@ -378,7 +340,7 @@ button {
 	width: 300px;
 	height: 400px;
 	margin-top: 80px;
-	background-color: lightgray;
+	background-color: #d6d8db;
 	font-size: 0.9em;
 }
 
