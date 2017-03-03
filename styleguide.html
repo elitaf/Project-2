@@ -47,11 +47,11 @@
               <h2 id="styleheader">Navigation Button</h2>
 
                 <h3>CSS selector:</h3>
-                  <p class="para">.button-nav</p>
+                  <p class="para">.nav-main-item</p>
                 <h3>Sample code:</h3>
 
               <div class="codebox">
-                  <code>&lt;a href="#" class="button"&gt;Bubble Tea&lt;/a&gt;</code>
+                  <code>&lt;a href="#" class="nav-main-item"&gt;Bubble Tea&lt;/a&gt;</code>
               </div>
 
                 <h3>Rendered element:</h3>
@@ -71,11 +71,11 @@
                 <h3>Sample code:</h3>
 
                 <div class="codebox">
-                  <code>&lt;a href="#" class="in-textlink"&gt;Click to sign up.&lt;/a&gt;</code>
+                  <code>&lt;a href="#" class="in-textlink"&gt;Checkout&lt;/a&gt;</code>
                 </div>
 
                 <h3>Rendered element:</h3>
-                <a class="in-textlink" href="#">Click to sign up.</a>
+                <a class="in-textlink" href="#">Checkout</a>
 
             </section>
         </div>
@@ -278,23 +278,45 @@
         <h3>Sample code:</h3>
 
         <div class="codebox">
-        <code> &lt;ul class="main-nav" id="Main-nav"&gt;
-        &lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="#home"&gt;Deals&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="#home"&gt;Bubble Tea&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="#home"&gt;Desserts&lt;/a&gt;&lt;/li&gt;
+        <code> &lt;nav class="nav-main grid-row" id="nav-main"&gt;
+        &lt;div class="grid-col-1of4"&gt;
+         &lt;a href="" class="nav-main-item"&gt;About Us&lt;/a&gt;
+         &lt;/div&gt;
+        &lt;div class="grid-col-1of4"&gt;
+         &lt;a href="" class="nav-main-item"&gt;Deals&lt;/a&gt;
+         &lt;/div&gt;
+         &lt;div class="grid-col-1of4"&gt;
+         &lt;a href="" class="nav-main-item"&gt;Bubble Tea&lt;/a&gt;
+         &lt;/div&gt;
+         &lt;div class="grid-col-1of4"&gt;
+         &lt;a href="" class="nav-main-item"&gt;Your Stamps&lt;/a&gt;
+         &lt;/div&gt;
         </code>
         </div>
 
         <h3>Rendered element:</h3>
-        <ul class="main-nav" id="Main-nav">
-        <li><a href="#home">Home</a></li> 
-        <li><a href="#home">Deals</a></li> 
-        <li><a href="#home">Bubble Tea</a></li> 
-        <li><a href="#home">Desserts</a></li>
-        </ul>
+        
+        <nav class="nav-main grid-row">
+            <div class="grid-col-1of4">
+              <a href="" class="nav-main-item">About Us</a>
+            </div>
+
+            <div class="grid-col-1of4">
+              <a href="" class="nav-main-item">Deals</a>
+            </div>
+
+            <div class="grid-col-1of4">
+              <a href="" class="nav-main-item">Bubble Tea</a>
+            </div>
+
+            <div class="grid-col-1of4">
+              <a href="" class="nav-main-item">Your Stamps</a>
+            </div>
+         </nav>
+
       </section>
-      </section>
+    <hr>
+    </section>
 </div>
 
  <div class="grid-col-1of1">
@@ -304,38 +326,62 @@
         <h3>Sample code:</h3>
 
         <div class="codebox">
-        <code> &lt;h1 class="h1-head"&gt;Boba & Pop Co.&lt;/h1&gt;
+        <code> 
+
+        &lt;h1 class="h1-head"&gt;Boba & Pop Co.&lt;/h1&gt;
+
+         <code> &lt;nav class="nav-main grid-row" id="nav-main"&gt;
+        &lt;div class="grid-col-1of4"&gt;
+         &lt;a href="" class="nav-main-item"&gt;About Us&lt;/a&gt;
+         &lt;/div&gt;
+        &lt;div class="grid-col-1of4"&gt;
+         &lt;a href="" class="nav-main-item"&gt;Deals&lt;/a&gt;
+         &lt;/div&gt;
+         &lt;div class="grid-col-1of4"&gt;
+         &lt;a href="" class="nav-main-item"&gt;Bubble Tea&lt;/a&gt;
+         &lt;/div&gt;
+         &lt;div class="grid-col-1of4"&gt;
+         &lt;a href="" class="nav-main-item"&gt;Your Stamps&lt;/a&gt;
+         &lt;/div&gt;
+        </code>
+
+        &lt;a href="#" class="in-textlink"&gt;About Us&lt;/a&gt;
+        &lt;p class="p-body"&gt;Bobba and Pop Co. got started when two college students from Vancouver, Canada came up with the idea of creating a place where people could go to make a custom order bubble tea drink. The inspiration came from many places only offering preset types of bubble tea with very little options to alter the bubble tea to better suit the needs and the tastes of customers.&lt;/p&gt;
+
+      
         &lt;h2 class="h2-head"&gt;Choose Your Drink Base&lt;/h2&gt;
         &lt;ol class="number-list"&gt;
-        &lt;li&gt; Regular Milk Tea&lt;/li&gt;
-        &lt;li&gt; Rose Milk Tea&lt;/li&gt;
-        &lt;li&gt; Jasmine Green Tea&lt;/li&gt;
+        &lt;li&gt; Milk Tea&lt;/li&gt;
+        &lt;li&gt; Green Tea&lt;/li&gt;
+        &lt;li&gt; Black Tea&lt;/li&gt;
         &lt;/ol&gt;
         
         &lt;h2 class="h2-head"&gt;Choose Your Toppings&lt;/h1&gt;
         &lt;ol class="number-list"&gt;
         &lt;li&gt; Pearls&lt;/li&gt;
         &lt;li&gt; Jelly&lt;/li&gt;
-        &lt;li&gt; Red Bean&lt;/li&gt;
+        &lt;li&gt; Sugar&lt;/li&gt;
         &lt;/ol&gt;
-
-        &lt;h3 class="h3-head"&gt;What Boba & Pop Co. Stand For.&lt;/h3&gt;
-        &lt;a href="#" class="in-textlink"&gt;About Us&lt;/a&gt;
-        &lt;p class="p-body"&gt;The company offers customers the ability to order a bubble tea of their choice in an easy to use format. The company gives the option to either have the bubble tea be delivered or picked up at the stores location. Boba & Pop Co. provides the option to skip lines and not have to worry about calling into the store to place an order for pick up or delivery. To customers it provides a hassle free, easy to use service to get great bubble tea. Boba & Pop Co. entices customers to purchase a product by offering reasonable prices and giving them variety. Also, by eliminating the need to wait in line to order it creates a more relaxed experience.&lt;/p&gt;
         </code>
         </div>
 
         <h3>Rendered element:</h3>
 
-       <h1 class="h1-head">Boba & Pop Co.</h1> 
-       <h2 class="h2-head">Choose Your Drink Base</h2> 
-       <ol class="number-list"> <li> Regular Milk Tea</li> <li> Rose Milk Tea</li> <li> Jasmine Green Tea</li> </ol> 
-       <h2 class="h2-head">Choose Your Toppings</h2> 
-       <ol class="number-list"> <li> Pearls</li> <li> Jelly</li> <li> Red Bean</li> </ol> 
-       <h3 class="h3-head">What Boba & Pop Co. Stand For.</h3> 
-       <a href="#" class="in-textlink">About Us</a> 
-       <p class="p-body">The company offers customers the ability to order a bubble tea of their choice in an easy to use format. The company gives the option to either have the bubble tea be delivered or picked up at the stores location. Boba & Pop Co. provides the option to skip lines and not have to worry about calling into the store to place an order for pick up or delivery. To customers it provides a hassle free, easy to use service to get great bubble tea. Boba & Pop Co. entices customers to purchase a product by offering reasonable prices and giving them variety. Also, by eliminating the need to wait in line to order it creates a more relaxed experience.</p>
+       <h1 class="h1-head">Boba & Pop Co.</h1>
+       <nav class="nav-main grid-row" id="nav-main"> 
+       <div class="grid-col-1of4"> 
+       <a href="" class="nav-main-item">About Us</a> </div> 
+       <div class="grid-col-1of4"> <a href="" class="nav-main-item">Deals</a> </div> 
+       <div class="grid-col-1of4"> <a href="" class="nav-main-item">Bubble Tea</a> </div> 
+       <div class="grid-col-1of4"> <a href="" class="nav-main-item">Your Stamps</a> </div> 
 
+       <p class="p-body">Bobba and Pop Co. got started when two college students from Vancouver, Canada came up with the idea of creating a place where people could go to make a custom order bubble tea drink. The inspiration came from many places only offering preset types of bubble tea with very little options to alter the bubble tea to better suit the needs and the tastes of customers.</p> 
+       <h2 class="h2-head">Choose Your Drink Base</h2> 
+       <ol class="number-list"> <li> Milk Tea</li> <li> Green Tea</li> <li> Black Tea</li> </ol> 
+       <h2 class="h2-head">Choose Your Toppings</h1> 
+       <ol class="number-list"> <li> Pearls</li> <li> Jelly</li> <li> Sugar</li> </ol>
+
+      
       </section>
     <!-- // COMBINED ELEMENTS SECTION -->
     </div>

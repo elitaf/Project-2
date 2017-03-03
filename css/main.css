@@ -26,6 +26,19 @@ div#fixedfooter {
 	width: 100%;
 }
 
+footer#footer {
+	margin-bottom: 20px;
+	position: fixed;
+	background: #333;
+	padding: 10px;
+	text-align: center;
+	font-size: 0.7rem;
+	color: #CCC;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+
 body {
 	font-family: "OpenSans-Light", sans-serif;
 	margin: 1rem;
@@ -40,10 +53,14 @@ body {
 	height: 120px; 
 	width: 120px;
 	border: none;
-	margin-top: 35px;
-	margin-right: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+hr {
+	border: 0.1px solid #e8e8e8;
 }
 
 h1 {
@@ -69,7 +86,7 @@ h3 {
 
 h4 {
 	font-size: 2rem;
-	font-family: LeckerliOne-Regular;
+	font-family: "HaloHandletter", sans-serif;
 	margin-bottom: 0rem;
 }
 
@@ -101,10 +118,21 @@ a:active, a:hover, a:focus {
 	text-decoration: none;
 }
 
+a#foot{
+	color: #ccc;
+	transition: color 0.5s;
+	text-decoration: none; 
+}
+
+a#foot:active, a#foot:hover, a#foot:focus {
+	color: #FFEBCD; 
+	text-decoration: none;
+}
+
 .nav-main-item {
 	display: inline-block;
 	font-family: "HaloHandletter", sans-serif;
-	font-size: 2.1rem;
+	font-size: 1.8rem;
 	font-weight: 600;
 	padding-top: 0.02rem;
 	text-decoration: none;
@@ -116,7 +144,7 @@ a:active, a:hover, a:focus {
 .aboutus {													/*on about us page, font color indicates*/
 	display: inline-block;
 	font-family: "HaloHandletter", sans-serif;
-	font-size: 2.1rem;
+	font-size: 1.8rem;
 	font-weight: 600;
 	padding-top: 0.02rem;
 	text-decoration: none;
@@ -125,7 +153,7 @@ a:active, a:hover, a:focus {
 	color: #FFEBCD;
 }
 
-.bg1 {
+.bg1, .bg2, .bg3 {
 	display: inline-block;
 	font-family: "HaloHandletter", sans-serif;
 	font-size: 2.1rem;
@@ -137,7 +165,7 @@ a:active, a:hover, a:focus {
 	color: #FFEBCD;
 }
 
-.bg2 {
+/*.bg2 {
 	display: inline-block;
 	font-family: "HaloHandletter", sans-serif;
 	font-size: 2.1rem;
@@ -159,17 +187,17 @@ a:active, a:hover, a:focus {
 	width: 100%;
 	text-align: center;
 	color: #FFEBCD;
-}
+}*/
 
 .nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
 	color: #FFEBCD;
 }
 
-#revealonclick{
+#revealonclick {
     display: none;
 }
 
-#revealonclick:target {
+#revealonclick:target {					/*image of bubble tea reveal on click*/
     display: inline;
 }
 
@@ -227,7 +255,7 @@ a:active, a:hover, a:focus {
     display: inline-block;
 }
 
-button {
+/*button {
 	width: 90%;
 	margin-top: 45px;
 	margin-bottom: 0;
@@ -243,12 +271,12 @@ button {
 .button:active, .button:hover, .button:focus, {
 	background-color: #FFEBCD;
 	color: lightblue;
-}
+}*/
 
 .button-selected {
 }
 
-#option1 button {
+/*#option1 button {
 }
 
 #option2 button {
@@ -264,7 +292,7 @@ button {
 }
 
 #fruit3 button {
-}
+}*/
 
 .soda {
 	border: none;
@@ -348,6 +376,10 @@ button {
 	height: 100%;
 }
 
+grid-col-1of2#ordertea {
+	padding-left: 50%;
+}
+
 .textbox_p {								/*Order.html*/
 	width: 300px;
 	height: 280px;
@@ -395,11 +427,11 @@ button {
 }
 
 #receipt {
-	font-family: "OpenSans-Light", sans-serif;
+	font-family: "OpenSans-Semibold", sans-serif;
 	padding-top: 30px;
 	padding-bottom: 20px;
-	padding-left: 15px;
-	font-size: 1rem;
+	padding-left: 20px;
+	font-size: 1.2rem;
 }
 
 #purchaseimg {
@@ -450,9 +482,9 @@ button {
 #dealbox {						/*deal of the day*/
 	position: relative;
 	margin-top: 1%;
-	margin-bottom: 5%;
-	margin-left: 40%;
-	margin-right: 15%;
+	margin-bottom: 8%;
+	margin-left: 35%;
+	margin-right: 5%;
 	color: black;
 }
 
@@ -480,8 +512,83 @@ div#deals {
 	border:1px solid #000;
 }
 
+.input-field1 {
+	float: right;
+	max-width: 50%;
+	margin-left: 5%;
+	margin-right: 45%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	font-size: 0.95em;
+}
+
+.input-field2 {
+	float: right;
+	max-width: 50%;
+	margin-left: 5%;
+	margin-right: 45%;
+	margin-top: 0.5%;
+	margin-bottom: 2%;
+	font-size: 0.95em;
+}
+
+.input-field {
+	float: right;
+	max-width: 50%;
+	margin-left: 5%;
+	margin-right: 45%;
+	margin-top: 0.2%;
+	margin-bottom: 2%;
+	font-size: 0.95em;
+}
+
+.box {
+	width: 70%;
+	height: 50%;
+	margin-bottom: 5%;
+	margin-left: 15%;
+	margin-top: 2%;
+	border:1px solid gray;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+}
+
+.checkoutnav {
+	font-family:"OpenSans-Semibold", sans-serif;
+	font-size: 1.2em;
+	width: 100%;
+	height: 80%;
+	padding-left: 3%;
+	padding-right: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #FFEBCD;
+}
+
+.Continue {
+	display: inline-block;
+	text-decoration: none;							/*button to click for next page*/
+	font-family: "HaloHandletter", sans-serif;
+	font-size: 2em;					
+	position: right;
+	margin-left: 90%;
+	margin-right: 5%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.credit {
+	width: 50%;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
 																/*STYLE GUIDE*/
 
+.para {
+	margin-top: 0.5rem;
+}
 
 h2#styleheader {
 	font-family: "HaloHandletter", sans-serif;
@@ -498,27 +605,20 @@ h2#styleheader {
 .numbers { 
 	display:block;
 	color: lightgray; 
-	font-family: OpenSans-Light, sans-serif; 
+	font-family: "OpenSans-Light", sans-serif; 
 }
 
-.numbers2 { 
+.numbers2, .numbers3 { 
 	display:block;
 	color: lightgray; 
-	font-family: OpenSans-Light, sans-serif; 
-	margin-top: 30px;
-}
-
-.numbers3 { 
-	display:block;
-	color: lightgray; 
-	font-family: OpenSans-Light, sans-serif; 
+	font-family: "OpenSans-Light", sans-serif; 
 	margin-top: 30px;
 }
 
 .sub { 
 	font-size: 20px;
 	color: black; 
-	font-family: OpenSans-Light, sans-serif; 
+	font-family: "OpenSans-Light", sans-serif; 
 }
 
 .frames {
@@ -526,8 +626,7 @@ h2#styleheader {
 }
 
 .codebox {
-/*	background-color: #FFEBCD;
-*/	max-width: 100%;
+	max-width: 100%;
 	padding: 0.23em 0.75em;
 	margin-top: -1rem;
 	font-size:0.9rem;
@@ -537,43 +636,49 @@ h2#styleheader {
 
 /* Styling for the navigation button */
 .button-nav {
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  color: #FFF;
-  background-color: #5F5A59;
-  border-radius: 0.25em;
-  text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
+  	display: inline-block;
+	font-family: "HaloHandletter", sans-serif;
+	font-size: 2.1rem;
+	font-weight: 600;
+	padding-top: 0.02rem;
+	text-decoration: none;
+	width: 100%;
+	text-align: left;
+	color: black;
 }
 
 .button-nav:hover, .button-nav:focus {
-  background-color: #F48274;
+  color: #FFEBCD;
 }
 
 .in-textlink{
-	color: blue;
+	color: red;
 	text-decoration: none;
+	font-family: "HaloHandletter", sans-serif;
+	font-size: 2em;
 }
 
 .in-textlink:hover {
-	text-decoration: underline;
+	text-decoration: none;
+	color: black;
 }
 
 .button-submit, .button-reset {
   display: inline-block;
-  padding: 0.5em 0.75em;
-  color: #FFF;
-  background-color: #5F5A59;
-  border-radius: 0.25em;
-  text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
+	font-family: "HaloHandletter", sans-serif;
+	font-size: 2.1rem;
+	font-weight: 600;
+	padding-top: 0.02rem;
+	text-decoration: none;
+	width: 100%;
+	text-align: left;
+	color: black;
 }
 
 .button-submit:hover, .button-submit:focus, 
 .button-reset:hover, .button-reset:focus {
-	background-color: #F48274;
+	text-decoration: none;
+	color: #FFEBCD;
 }
 
 .input-field{
@@ -583,34 +688,43 @@ h2#styleheader {
 	font-size: 2.5rem;
 	font-family: "HaloHandletter", sans-serif;
 	color: black;
+	text-decoration: none;
 }
 
 .h2-head {
 	font-size: 1.2rem;
-	font-family: OpenSans-Semibold, sans-serif;
+	font-family: "OpenSans-Semibold", sans-serif;
 	color: black;
+	margin-left: 7%;
 }
 
 .h3-head {
 	font-size: 1rem;
-	font-family: OpenSans-Semibold, sans-serif;
+	font-family: "OpenSans-Semibold", sans-serif;
 	color: black;
 }
 
-.p-body, .bullet-list, .number-list {
-	font-family: OpenSans-Light, sans-serif;
+.bullet-list, .number-list {
+	font-family: "OpenSans-Light", sans-serif;
+	margin-left: 5%;
 }
 
-ul.main-nav {					/*main navigation*/
+.p-body {
+	font-family: "OpenSans-Light", sans-serif;
+	margin-left: 8%;
+
+}
+
+/*ul.main-nav {					
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #FFCBA4;
-}
+}*/
 
 /* Main Navigation Section */
-ul.main-nav li {float: left;}
+/*ul.main-nav li {float: left;}
 
 ul.main-nav li a {
     display: inline-block;
@@ -622,8 +736,13 @@ ul.main-nav li a {
     font-size: 17px;
 }
 
-ul.main-nav li a:hover {background-color: #FFEBCD;}
-ul.main-nav li.icon {display: none;}
+ul.main-nav li a:hover {
+	background-color: #FFEBCD;
+}
+
+ul.main-nav li.icon {
+	display: none;
+}*/
 
 
 
