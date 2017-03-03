@@ -102,7 +102,7 @@ h1 {
 }
 
 h1#thanks {														/*thank you for your order page*/
-	font-family: "HaloHandletter", sans-serif;
+	font-family: "HaloHandletter", Helvetica, sans-serif;
 	font-size: 4rem;
 	margin-bottom: 20px;
 	margin-top: 120px;
@@ -125,7 +125,7 @@ h3 {
 
 h4 {
 	font-size: 2rem;
-	font-family: "HaloHandletter", sans-serif;
+	font-family: "HaloHandletter", Helvetica, sans-serif;
 	margin-bottom: 0rem;
 }
 
@@ -181,7 +181,7 @@ a#foots:active, a#foots:hover, a#foots:focus {
 
 .nav-main-item {
 	display: inline-block;
-	font-family: "HaloHandletter", sans-serif;
+	font-family: "HaloHandletter", Helvetica, sans-serif;
 	font-size: 1.8rem;
 	font-weight: 600;
 	padding-top: 0.02rem;
@@ -193,7 +193,7 @@ a#foots:active, a#foots:hover, a#foots:focus {
 
 .aboutus {													/*on about us page, font color indicates*/
 	display: inline-block;
-	font-family: "HaloHandletter", sans-serif;
+	font-family: "HaloHandletter", Helvetica, sans-serif;
 	font-size: 1.8rem;
 	font-weight: 600;
 	padding-top: 0.02rem;
@@ -205,7 +205,7 @@ a#foots:active, a#foots:hover, a#foots:focus {
 
 .bg1, .bg2, .bg3 {
 	display: inline-block;
-	font-family: "HaloHandletter", sans-serif;
+	font-family: "HaloHandletter", Helvetica, sans-serif;
 	font-size: 1.8rem;
 	font-weight: 600;
 	padding-top: 0.02rem;
@@ -334,7 +334,7 @@ a#foots:active, a#foots:hover, a#foots:focus {
 .Nextbutton {		
 	display: inline-block;
 	text-decoration: none;							/*button to click for next page*/
-	font-family: "HaloHandletter", sans-serif;
+	font-family: "HaloHandletter", Helvetica, sans-serif;
 	font-size: 2em;					
 	position: right;
 	margin-left: 70%;
@@ -350,7 +350,7 @@ a#foots:active, a#foots:hover, a#foots:focus {
 .Nextbutton_op {		
 	display: inline-block;
 	text-decoration: none;							/*button to click for next page*/
-	font-family: "HaloHandletter", sans-serif;
+	font-family: "HaloHandletter", Helvetica, sans-serif;
 	font-size: 2em;					
 	position: right;
 	margin-left: 90%;
@@ -396,7 +396,7 @@ grid-col-1of2#ordertea {
 .PlaceOrder {
 	display: inline-block;
 	text-decoration: none;							/*button to click for next page*/
-	font-family: "HaloHandletter", sans-serif;
+	font-family: "HaloHandletter", Helvetica, sans-serif;
 	font-size: 2em;					
 	position: right;
 	margin-left: 50%;
@@ -408,7 +408,7 @@ grid-col-1of2#ordertea {
 .Addtocart {
 	display: inline-block;
 	text-decoration: none;							/*button to click for next page*/
-	font-family: "HaloHandletter", sans-serif;
+	font-family: "HaloHandletter", Helvetica, sans-serif;
 	font-size: 2em;					
 	position: right;
 	margin-left: 43%;
@@ -560,7 +560,7 @@ div#deals {
 .Continue {
 	display: inline-block;
 	text-decoration: none;							/*button to click for next page*/
-	font-family: "HaloHandletter", sans-serif;
+	font-family: "HaloHandletter", Helvetica, sans-serif;
 	font-size: 2em;					
 	position: right;
 	margin-left: 90%;
@@ -582,7 +582,7 @@ div#deals {
 }
 
 .styleheader {
-	font-family: "HaloHandletter", sans-serif;
+	font-family: "HaloHandletter", Helvetica, sans-serif;
 	font-size: 2rem;
 	margin-bottom: 0;
 	width: 100%;
@@ -628,7 +628,7 @@ div#deals {
 /* Styling for the navigation button */
 .button-nav {
   	display: inline-block;
-	font-family: "HaloHandletter", sans-serif;
+	font-family: "HaloHandletter", Helvetica, sans-serif;
 	font-size: 2.1rem;
 	font-weight: 600;
 	padding-top: 0.02rem;
@@ -645,7 +645,7 @@ div#deals {
 .in-textlink{
 	color: red;
 	text-decoration: none;
-	font-family: "HaloHandletter", sans-serif;
+	font-family: "HaloHandletter", Helvetica, sans-serif;
 	font-size: 2em;
 }
 
@@ -656,7 +656,7 @@ div#deals {
 
 .button-submit, .button-reset {
   display: inline-block;
-	font-family: "HaloHandletter", sans-serif;
+	font-family: "HaloHandletter", Helvetica, sans-serif;
 	font-size: 2.1rem;
 	font-weight: 600;
 	padding-top: 0.02rem;
@@ -677,7 +677,7 @@ div#deals {
 
 .h1-head {
 	font-size: 2.5rem;
-	font-family: "HaloHandletter", sans-serif;
+	font-family: "HaloHandletter", Helvetica, sans-serif;
 	color: black;
 	text-decoration: none;
 }
