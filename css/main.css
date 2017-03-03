@@ -101,6 +101,15 @@ h1 {
 	text-decoration: underline;
 }
 
+h1#thanks {
+	font-family: "HaloHandletter", sans-serif;
+	font-size: 4rem;
+	margin-bottom: 20px;
+	margin-top: 120px;
+	text-align: center;
+	text-decoration: none;
+}
+
 h2 {
 	font-family: "OpenSans-Light", sans-serif;
 	font-size: 1.2rem;
