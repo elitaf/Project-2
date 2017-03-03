@@ -101,7 +101,7 @@ h1 {
 	text-decoration: underline;
 }
 
-h1#thanks {
+h1#thanks {														/*thank you for your order page*/
 	font-family: "HaloHandletter", sans-serif;
 	font-size: 4rem;
 	margin-bottom: 20px;
@@ -215,30 +215,6 @@ a#foots:active, a#foots:hover, a#foots:focus {
 	color: #FFEBCD;
 }
 
-/*.bg2 {
-	display: inline-block;
-	font-family: "HaloHandletter", sans-serif;
-	font-size: 2.1rem;
-	font-weight: 600;
-	padding-top: 0.02rem;
-	text-decoration: none;
-	width: 100%;
-	text-align: center;
-	color: #FFEBCD;
-}
-
-.bg3 {
-	display: inline-block;
-	font-family: "HaloHandletter", sans-serif;
-	font-size: 2.1rem;
-	font-weight: 600;
-	padding-top: 0.02rem;
-	text-decoration: none;
-	width: 100%;
-	text-align: center;
-	color: #FFEBCD;
-}*/
-
 .nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
 	color: #FFEBCD;
 }
@@ -305,44 +281,9 @@ a#foots:active, a#foots:hover, a#foots:focus {
     display: inline-block;
 }
 
-/*button {
-	width: 90%;
-	margin-top: 45px;
-	margin-bottom: 0;
-	margin-left: 15px;
-	margin-right: 5px;
-	height: 50px;
-	color: black;
-	background: white;
-	border-radius: 12px;
-	border: 1px solid black; 
-}
-
-.button:active, .button:hover, .button:focus, {
-	background-color: #FFEBCD;
-	color: lightblue;
-}*/
 
 .button-selected {
 }
-
-/*#option1 button {
-}
-
-#option2 button {
-}
-
-#option3 button {
-}
-
-#fruit1 button {
-}
-
-#fruit2 button {
-}
-
-#fruit3 button {
-}*/
 
 .soda {
 	border: none;
@@ -680,7 +621,7 @@ div#deals {
 	padding: 0.23em 0.75em;
 	margin-top: -1rem;
 	font-size:0.9rem;
-	color: red;
+	color: #FF0000;
 	margin-top: 5px;
 }
 
@@ -764,35 +705,6 @@ div#deals {
 	margin-left: 8%;
 
 }
-
-/*ul.main-nav {					
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #FFCBA4;
-}*/
-
-/* Main Navigation Section */
-/*ul.main-nav li {float: left;}
-
-ul.main-nav li a {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-ul.main-nav li a:hover {
-	background-color: #FFEBCD;
-}
-
-ul.main-nav li.icon {
-	display: none;
-}*/
 
 div#cite {
 	margin-top: 2%;
