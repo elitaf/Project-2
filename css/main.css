@@ -55,8 +55,8 @@ body {
 	margin-left: -15px;
 }
 
-.grid-col-1of4-1 {
-	margin-left: 90px;
+.grid-col-1of3-1 {
+	padding-left: 2%;
 }
 
 .bplogo {
@@ -75,6 +75,7 @@ body {
    margin-left: 0px;
    margin-right: 35px;
    margin-bottom: 49px;
+   margin-top: 5px;
    z-index: -1;
 }
 
@@ -107,12 +108,12 @@ p#main {
 
 .container-1 input#search {
   width: 120px;
-  height: 25px;
+  height: 22px;
   font-size: 8pt;
   color: #262626;
   padding-left: 5px;
-  margin-top: 20%;
-  margin-left: 35%;
+  margin-top: 22%;
+  margin-left: 50%;
 }
 
 .container-1 input#search:hover, 
@@ -125,21 +126,22 @@ p#main {
 img#bagicon {								
 	width: 18px;
 	height: 18px;
-	margin-left: 90%;
-	margin-top: -50%;
+	margin-left: 80%;
+	margin-top: -5.5%;
 	margin-bottom: 7%;
+	margin-right: 10%;
 }
 
 p#bag {
-	font-size: 0.75em;
-	margin-left: 100%;
-	margin-top: 0%;
-	margin-bottom: 0%;
+	font-size: 0.68em;
+	margin-left: 87%;
+	margin-top: -12.5%;
+	margin-bottom: -20%;
 }
 
-hr {
+/*hr {
 	border: 0.1px solid #e8e8e8;
-}
+}*/
 
 h1 {
 	font-family: "HaloHandletter", cursive;
@@ -150,7 +152,8 @@ h1 {
 	text-decoration: underline;
 }
 
-h1#thanks {														/*thank you for your order page*/
+/*thank you for your order page*/
+h1#thanks {														
 	font-family: "HaloHandletter", Helvetica, sans-serif;
 	font-size: 4rem;
 	margin-bottom: 20px;

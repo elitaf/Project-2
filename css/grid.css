@@ -68,15 +68,11 @@
 		width: 25%;
 	}
 
-	.grid-col-1of4-1 {
-	width: 25%;
-}
-
 	.grid-col-1of4-bbt {
 	width: 25%;
 	}
 
-	.grid-col-1of3, .grid-col-2of3, .grid-col-3of3 {
+	.grid-col-1of3, .grid-col-1of3-1 {
 		width: 33.333%;
 	}
 
@@ -103,15 +99,11 @@
 		width: 100%;
 	}
 
-	.grid-col-1of4-1 {
-	width: 100%;
-}
-
 	.grid-col-1of4-bbt {
 		width: 100%;
 	}
 
-	.grid-col-1of3, .grid-col-2of3, .grid-col-3of3 {
+	.grid-col-1of3, .grid-col-1of3-1 {
 		width: 100%;
 	}
 
