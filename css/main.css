@@ -16,7 +16,7 @@ div#fixedheader {
 
 div#fixedfooter {
 	position: fixed;
-	background: #333;
+	background: black;
 	padding: 8px;
 	text-align: center;
 	font-size: 0.1rem;
@@ -26,14 +26,15 @@ div#fixedfooter {
 	width: 100%;
 }
 
-footer#footer {					/*style guide, citations*/
-	margin-bottom: 20px;
+/*style guide, citations, git in footer*/
+footer#footer {					
+	margin-bottom: 25px;
 	position: fixed;
-	background: #333;
-	padding: 7px;
+	background: black;
+	padding: 5px;
 	text-align: center;
-	font-size: 0.7rem;
-	color: #CCC;
+	font-size: 0.6rem;
+	color: white;
 	bottom: 0px;
 	left: 0px;
 	width: 100%;
@@ -46,46 +47,94 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+													/*mainpage.html*/
+
+.grid-col-1of5-1 {
+	padding-top: 5%;
+	margin-right: -120px;
+	margin-left: -15px;
+}
+
+.grid-col-1of4-1 {
+	margin-left: 90px;
+}
 
 .bplogo {
 	position: relative;
 	display: block;
-	height: 120px; 
-	width: 120px;
-	border: none;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: auto;
-	margin-right: auto;
+	height: 100px; 
+	width: 100px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 33%;
 }
 
 .image { 
-   position: absolute; 
+   position: absolute;
+   height: auto;
    margin-left: 0px;
    margin-right: 35px;
+   margin-bottom: 49px;
    z-index: -1;
 }
 
 .innerbox {
-	max-width: 90%;
+	width: 700px;
+	height: 150px;
 	position: absolute;
-	background: rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.2);
 	padding: 20px 20px;	
-	margin-right: 20%;
-	margin-left: 20%;
-	margin-top: 20%;
+	margin-left: 22%;
+	margin-top: -35%;
 }
 
-/*@media (max-width: 768px) {*/
 p#main {
-   position: relative; 
-   margin-top: 20%;
-   margin-left: 5%; 
+   position: relative;
+   overflow: hidden; 
    width: 100%; 
    display: inline;
    color: white;
-   font-size: 1em; 
+   font-size: 0.88em; 
+}
 
+/*Search bar*/
+.container-1 {										
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.container-1 input#search {
+  width: 120px;
+  height: 25px;
+  font-size: 8pt;
+  color: #262626;
+  padding-left: 5px;
+  margin-top: 20%;
+  margin-left: 35%;
+}
+
+.container-1 input#search:hover, 
+.container-1 input#search:focus, 
+.container-1 input#search:active {
+    outline:none;
+}
+
+/*Bag icon*/
+img#bagicon {								
+	width: 18px;
+	height: 18px;
+	margin-left: 90%;
+	margin-top: -50%;
+	margin-bottom: 7%;
+}
+
+p#bag {
+	font-size: 0.75em;
+	margin-left: 100%;
+	margin-top: 0%;
+	margin-bottom: 0%;
 }
 
 hr {
@@ -93,7 +142,7 @@ hr {
 }
 
 h1 {
-	font-family: "HaloHandletter", sans-serif;
+	font-family: "HaloHandletter", cursive;
 	font-size: 4rem;
 	margin-bottom: 20px;
 	margin-top: 40px;
@@ -157,24 +206,14 @@ a:active, a:hover, a:focus {
 	text-decoration: none;
 }
 
-a#foot {
+a#foot-1, a#foot-2, a#foot-3 {
 	color: #ccc;
 	transition: color 0.5s;
 	text-decoration: none; 
 }
 
-a#foot:active, a#foot:hover, a#foot:focus {
-	color: #FFEBCD; 
-	text-decoration: none;
-}
-
-a#foots {
-	color: #ccc;
-	transition: color 0.5s;
-	text-decoration: none; 
-}
-
-a#foots:active, a#foots:hover, a#foots:focus {
+a#foot-1:active, a#foot-1:hover, a#foot-1:focus, a#foot-2:active, a#foot-2:hover, a#foot-2:focus,
+a#foot-3:active, a#foot-3:hover, a#foot-3:focus {
 	color: #FFEBCD; 
 	text-decoration: none;
 }
@@ -200,7 +239,7 @@ a#foots:active, a#foots:hover, a#foots:focus {
 	text-decoration: none;
 	width: 100%;
 	text-align: center;
-	color: #FFEBCD;
+	color: #EFAE00;
 }
 
 .bg1, .bg2, .bg3 {
@@ -212,11 +251,11 @@ a#foots:active, a#foots:hover, a#foots:focus {
 	text-decoration: none;
 	width: 100%;
 	text-align: center;
-	color: #FFEBCD;
+	color: #EFAE00;
 }
 
 .nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
-	color: #FFEBCD;
+	color: #EFAE00;
 }
 
 #revealonclick {
@@ -259,10 +298,38 @@ a#foots:active, a#foots:hover, a#foots:focus {
 	margin-right: 5px;
 }
 
+												/*bubbletea.html*/
+.grid-row-1 {							
+	padding-left: 105px;
+	padding-right: 105px;
+}
+
+.grid-col-1of4-bbt {
+	margin-top: 10%;
+}
+
+
 #bbtpictures {
+	width: 100%;
+	height: 100%;
 	opacity: 100; 
-	margin-left: 15px;
 	margin-top: 5px;
+	padding-bottom: 15%;
+	
+}
+
+button {
+	width: 100%;
+	margin-top: 20px;
+	margin-right: 10px;
+	height: 50px;
+	color: black;
+	background: white;
+	border: 1.5px solid black; 
+}
+
+button:hover {
+  background: #3071A9
 }
 
 #bbtpictures2 {
@@ -273,16 +340,42 @@ a#foots:active, a#foots:hover, a#foots:focus {
 	height: 50%;
 }
 
-.milk-tea:active .img-class, .milk-tea:focus .img-class { 
+/*.milk-tea:active .img-class, .milk-tea:focus .img-class { 
 	opacity: 0 
-}
+}*/
 
 #LayoutDiv1 .press {
     display: inline-block;
 }
 
+/*.button-selected {
+}*/
 
-.button-selected {
+.images-0, .images-1, .images-2, .images-3, .images-4, .images-5, 		/*displays drink images*/
+.images-6, .images-7, .images-8, .images-9, .images-10,
+.images-11, .images-12, .images-13, .images-14 {
+	display: none;
+	border: none;
+}
+
+.active {
+	display: inline;
+}
+
+.Nextbutton {		
+	display: inline-block;
+	text-decoration: none;											/*button to click for next page in bubbletea.html*/
+	font-family: "HaloHandletter", Helvetica, sans-serif;
+	font-size: 2em;					
+	position: right;
+	margin-left: 70%;
+	margin-right: 20%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.Nextbutton:hover, .Nextbutton:active, {
+	color: #FFEBCD;
 }
 
 .soda {
@@ -316,35 +409,6 @@ a#foots:active, a#foots:hover, a#foots:focus {
 	margin-bottom: 0;
 	margin-left: 15%;
 	margin-right: 15%;
-}
-
-
-.images-1, .images-2, .images-3, .images-4, .images-5, 		/*displays drink images*/
-.images-6, .images-7, .images-8, .images-9, .images-10,
-.images-11, .images-12, .images-13, .images-14 {
-	display: none;
-	border: none;
-
-}
-
-.active {
-	display: inline;
-}
-
-.Nextbutton {		
-	display: inline-block;
-	text-decoration: none;							/*button to click for next page*/
-	font-family: "HaloHandletter", Helvetica, sans-serif;
-	font-size: 2em;					
-	position: right;
-	margin-left: 70%;
-	margin-right: 20%;
-	margin-top: 30px;
-	margin-bottom: 10px;
-}
-
-.Nextbutton:hover, .Nextbutton:active, {
-	color: #FFEBCD;
 }
 
 .Nextbutton_op {		
