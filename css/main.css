@@ -448,7 +448,13 @@ button:hover {
 }
 
 grid-col-1of2#ordertea {
-	padding-left: 50%;
+	width: 100%;
+	height: 100%;
+	opacity: 100; 
+	margin-top: 5px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 15%;
 }
 
 .textbox_p {								/*Order.html*/
