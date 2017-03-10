@@ -797,6 +797,26 @@ button:hover button:active {
 	margin-left: -10%;
 }
 
+.Next-checkout button {
+	background-color: white;
+	color: black;
+	width: 15%;
+	height: 50px;
+	font-family: "Lato", sans-serif;
+	font-size: 1em;					
+	display: inline-block;
+	position: right;
+	margin-left: 68%;
+	margin-right: 0%;
+	margin-top: 2%;
+	margin-bottom: 15%;
+}
+
+.Next-checkout button:hover {
+	color: white;
+	background-color: #bd202e; 
+}
+
 															/* Pay */
 
 .input-field1 {
