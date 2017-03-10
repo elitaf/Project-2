@@ -75,11 +75,11 @@ body {
 .bplogo {
 	position: relative;
 	display: block;
-	height: 100px; 
-	width: 100px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-left: 33%;
+	height: 90px; 
+	width: 90px;
+	margin-top: 19px;
+	margin-bottom: 5px;
+	margin-left: 35%;
 }
 
 .image { 
