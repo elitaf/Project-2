@@ -141,22 +141,23 @@ p#main {
 img#bagicon {								
 	width: 18px;
 	height: 18px;
-	margin-left: 80%;
-	margin-top: -5.5%;
+	margin-left: 85%;
+	margin-top: 3%;
 	margin-bottom: 7%;
 	margin-right: 10%;
+	outline: none;
 }
 
 p#bag {
-	font-size: 0.68em;
-	margin-left: 87%;
-	margin-top: -12.5%;
-	margin-bottom: -20%;
+	font-size: 0.7em;
+	font-weight: 600;
+	color: black;
+	margin-left: 100%;
+	margin-right: 100%;
+	margin-top: -17%;
+	margin-bottom: 0%;
+	outline: none;
 }
-
-/*hr {
-	border: 0.1px solid #e8e8e8;
-}*/
 
 h1 {
 	font-family: "HaloHandletter", cursive;
