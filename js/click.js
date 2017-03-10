@@ -84,4 +84,13 @@ $(document).ready(function() {
 		$('.images-14').addClass("active");
 	});
 
+	$('.add').click(function (e) {
+		e.preventDefault();
+	    $(this).prev().val(+$(this).prev().val() + 1);
+	});
+	$('.sub').click(function (e) {
+		e.preventDefault();
+	    if ($(this).next().val() > 0) $(this).next().val(+$(this).next().val() - 1);
+	});
+
 });
