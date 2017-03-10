@@ -4,14 +4,6 @@
 	box-sizing: border-box;
 }
 
-body {
-	font-family: "OpenSans-Light", sans-serif;
-	margin: 1rem;
-	font-size: 1rem;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
 div#fixedheader {
 	position: fixed;
 	background: #333;
