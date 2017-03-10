@@ -16,13 +16,10 @@
 
 <body>
 
-      <div>
-        <a href="http://www.sfu.ca/~elitaf/Project%202%20Structure/mainpage.html"><img class="bplogo" 
-        src="img/bp_logo.jpg" alt="bplogo"></a>
-      </div>
+    <div id="fixedheader"></div>
 
 
-    <h2>Boba & Pop Co. Style Guide</h2>
+    <h2 class="style-guide">Boba & Pop Co. Style Guide</h2>
 
       <nav>
         <p>
@@ -34,13 +31,138 @@
       </nav>
 <hr>
 
-    <div class="grid-row">
+    <div class="grid-row-style">
 
-        <div class="grid-col-1of4">
+        <section id="logo">
+
+             <h2 class="styleheader">Logo</h2>
+
+                <h3>CSS selector:</h3>
+                  <p class="para">.logo</p>
+                <h3>Sample code:</h3>
+
+              <div class="codebox">
+                  &lt;<code>img class="logo" src="img/bp_logo.jpg" alt="logo"&lt;/&gt;</code>
+              </div>
+
+                <h3>Rendered element:</h3>
+             <img class="logo" src="img/bp_logo.jpg" alt="logo">
+
+            
+        </section>
+
+
+<hr>
+        <section id="font">
+
+            <h2 class="styleheader">Font</h2>
+
+                <h3>CSS selector:</h3>
+                  <p class="para">.font</p>
+                <h3>Sample code:</h3>
+
+              <div class="codebox">
+                 &lt;<code>id="font-text">The font used is "Lato".&lt;/&gt;</code>
+              </div>
+
+                <h3>Rendered element:</h3>
+              <div id="font-text">The font used is "Lato".</div>
+
+        </section>
+<hr>
+
+        <section id="color palette">
+
+            <h2 class="styleheader">Color Palette</h2>
+      
+                <div id="square1">
+                  <div id="content">
+                  #333
+                  </div>
+                </div>
+
+                <div id="square2">
+                  <div id="content-1">
+                  #FFEBCD
+                  </div>
+                </div>
+
+                <div id="square3">
+                  <div id="content">
+                 #BD202E
+                  </div>
+                </div>
+
+                <div id="square4">
+                  <div id="content">
+                 #00746C
+                  </div>
+                </div>
+
+                <div id="square5">
+                  <div id="content">
+                  #5F5A59
+                  </div>
+                </div>
+
+        </section>
+
+
+
+        <section style="clear:both;">
+<hr>
+
+      <h2 class="styleheader">Bubble Tea Images</h2>
+
+        <section id="images">
+
+        <h3>CSS selector:</h3>
+                  <p class="para">.images-</p>
+                <h3>Sample code:</h3>
+
+              <div class="codebox">
+                 &lt;<code>img src="img/milktea.png" alt="milktea"&lt;/&gt;</code>
+              </div>
+
+                <h3>Rendered element:</h3>
+      
+        <div class="grid-col-1of9">
+          <img src="img/milktea.png" alt="milktea"> 
+        </div>
+         <div class="grid-col-1of9">
+          <img src="img/greentea.png" alt="greentea"> 
+          </div>
+           <div class="grid-col-1of9">
+          <img src="img/redtea.png" alt="redtea"> 
+          </div>
+           <div class="grid-col-1of9">
+          <img src="img/blacktea.png" alt="blacktea"> 
+          </div>
+           <div class="grid-col-1of9">
+          <img src="img/juice.png" alt="juice"> 
+          </div>
+           <div class="grid-col-1of9">
+          <img src="img/soda.png" alt="soda"> 
+          </div>
+           <div class="grid-col-1of9">
+          <img src="img/coffee.png" alt="coffee"> 
+          </div>
+           <div class="grid-col-1of9">
+          <img src="img/calpis.png" alt="calpis"> 
+          </div>
+           <div class="grid-col-1of9">
+          <img src="img/mocktail.png" alt="mocktail"> 
+        </div>
+        </section>
+        </section>
+
 
           <!-- INTERACTIVE ELEMENTS SECTION // -->
+           <section style="clear:both;">
+
+   <hr>
           <section id="interactive_elements">
-            <section style="clear:both;">
+    
   
               <h2 class="styleheader">Navigation Button</h2>
 
@@ -54,12 +176,14 @@
 
                 <h3>Rendered element:</h3>
               <a class="button-nav" href="#">Bubble Tea</a>
-              </section>
-            </section>
-        </div>
+
+          </section>
+          </section>
+        
+        <hr>
 
 <!-- In Text Link -->
-        <div class="grid-col-1of4">
+        
             <section>
 
               <h2 class="styleheader">In-text link</h2>
@@ -76,10 +200,9 @@
                 <a class="in-textlink" href="#">Checkout</a>
 
             </section>
-        </div>
-
-
-       <div class="grid-col-1of4">
+       
+ <hr>
+     
             <section> <!-- Submit/Reset -->
 
               <h2 class="styleheader">Submit/Reset Buttons</h2>
@@ -101,10 +224,10 @@
                 <a class="button-reset" href="#">Reset</a>
 
             </section>
-      </div>
-
+      
+ <hr>
 <!-- Text Input -->
-      <div class="grid-col-1of4">
+      
             <section>
             <h2 class="styleheader">Text Input Field</h2>
 
@@ -119,18 +242,14 @@
               </div>
 
               <h3>Rendered element:</h3>
-                  <form class="input-field"> First name:
-                    <input type="text" name="firstname">  
-                  </form>
+                  <form class="input-field"> Name: <input type="text" name="firstname">
 
             </section>
-      </div>
 
 
 <!-- // INTERACTIVE ELEMENTS SECTION -->
-     <div class="grid-col-1of1">
-        <div class="grid-col-1of3">
-  <hr> 
+    
+ <hr>
         <section id="text_elements">      <!-- TEXT ELEMENTS SECTION // -->
           <section> 
 
@@ -149,9 +268,9 @@
 
           </section>
           </section>
-        </div>
+     
 
-        <div class="grid-col-1of3">
+       
           <section>
   <hr> 
             <h2>H2 Heading</h2>
@@ -168,9 +287,9 @@
                 <a class="h2-head">H2 Header</a>
 
           </section>
-        </div>
+       
 
-        <div class="grid-col-1of3">
+        
           <section>
   <hr> 
             <h2>H3 Heading</h2>
@@ -187,11 +306,11 @@
                 <a class="h3-head">H3 Header</a>
 
           </section>
-        </div>
-      </div>
+       
+      
+ <hr>
 
-
- <div class="grid-col-1of2">
+ 
 <!-- Bullet List -->
       <section>
         <h2 class="styleheader">Bulleted Lists</h2>
@@ -214,9 +333,8 @@
         <ul class="bullet-list"> <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> <li> Fusce eget viverra lacus, vel ornare libero.</li> <li> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li> </ul>
       </section>
 
-</div>
 
- <div class="grid-col-1of2">
+ <hr>
 <!-- Number List -->
       <section>
         <h2 class="styleheader">Numbered Lists</h2>
@@ -238,10 +356,10 @@
         <h3>Rendered element:</h3>
         <ol class="number-list"> <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> <li> Fusce eget viverra lacus, vel ornare libero.</li> <li> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li> </ol>
       </section>
-</div>
+
     <!-- // TEXT ELEMENTS SECTION -->
 
-<div class="grid-col-1of2">
+ <hr>
 <!-- Paragraph -->
       <section>
       <h2 class="styleheader">Paragraphs</h2>
@@ -260,10 +378,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget viverra lacus, vel ornare libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque fermentum rhoncus velit, eget porttitor nulla. Phasellus ac posuere ipsum. Proin lacinia maximus metus sit amet lobortis. Sed sed justo nec ante accumsan pulvinar. Etiam volutpat porttitor mauris, sed laoreet diam tincidunt sit amet. Aenean eget elit tellus.
           </p>
       </section>
-  </div>
 
 
-   <div class="grid-col-1of1">
+
+ 
     <!-- COMBINED ELEMENTS SECTION // -->
     <section id="combined_elements">
 <hr>
@@ -289,7 +407,7 @@
          &lt;a href="" class="nav-main-item"&gt;Your Stamps&lt;/a&gt;
          &lt;/div&gt;
         </code>
-        </div>
+    
 
         <h3>Rendered element:</h3>
         
@@ -316,8 +434,8 @@
     </section>
 </div>
 
- <div class="grid-col-1of1">
-      <section>
+
+      <section id="product-listings" style="clear:both;">
       
         <h2 class="styleheader">Product Listing</h2>
         <h3>Sample code:</h3>
@@ -360,7 +478,7 @@
         &lt;li&gt; Sugar&lt;/li&gt;
         &lt;/ol&gt;
         </code>
-        </div>
+        
 
         <h3>Rendered element:</h3>
 
