@@ -209,20 +209,24 @@ p#bag {
 }
 
 
-.Nextbutton {		
+.Nextbutton button {		
+	background-color: white;
+	color: black;
+	width: 160%;
+	height: 40px;
+	font-family: "Lato", sans-serif;
+	font-size: 0.5em;					
 	display: inline-block;
-	text-decoration: none;											/*button to click for next page in bubbletea.html*/
-	font-family: "HaloHandletter", Helvetica, sans-serif;
-	font-size: 2em;					
 	position: right;
-	margin-left: 70%;
-	margin-right: 20%;
-	margin-top: 30px;
-	margin-bottom: 10px;
+	margin-left: -70%;
+	margin-right: 0%;
+	margin-top: 0%;
+	margin-bottom: 15%;
 }
 
-.Nextbutton:hover, .Nextbutton:active, {
-	color: #FFEBCD;
+.Nextbutton button:hover {
+	color: white;
+	background-color: #bd202e; 
 }
 
 .soda {
@@ -605,36 +609,31 @@ button:hover button:active {
 	border: 1.5px solid black; 
 }
 
-/*#nonetoppings button {
-	width: 70px;
-	margin-top: 80px;
-	margin-bottom: 0;
-	margin-left: 15%;
-	margin-right: 15%;
-}*/
 
-.Nextbutton_op {		
+.Nextbutton_op button {		
+	background-color: white;
+	color: black;
+	width: 50%;
+	height: 40px;
+	font-family: "Lato", sans-serif;
+	font-size: 0.9em;					
 	display: inline-block;
-	text-decoration: none;							
-	font-family: "HaloHandletter", Helvetica, sans-serif;
-	font-size: 2em;					
 	position: right;
-	margin-left: 40%;
-	margin-right: 40%;
-	margin-top: 25%;
+	margin-left: 25%;
+	margin-right: 0%;
+	margin-top: 20%;
 	margin-bottom: 15%;
 }
 
-/*.milk-tea:active .img-class, .milk-tea:focus .img-class { 
-	opacity: 0 
-}*/
+.Nextbutton_op button:hover {
+	color: white;
+	background-color: #bd202e; 
+}
 
 #LayoutDiv1 .press {
     display: inline-block;
 }
 
-/*.button-selected {
-}*/
 
 .images-0, .images-1, .images-2, .images-3, .images-4, .images-5, 		/*displays drink images*/
 .images-6, .images-7, .images-8, .images-9, .images-10,
@@ -878,16 +877,23 @@ button:hover button:active {
 	letter-spacing: 6px;
 }
 
-.Continue {
+.Continue button {
 	display: inline-block;
-	text-decoration: none;							
+	text-decoration: none;	
+	width: 60%;
+	height: 45px; 						
 	font-family: "Lato", sans-serif;
 	font-size: 1em;					
 	position: right;
-	margin-left: 60%;
-	margin-right: 5%;
-	margin-top: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 10px;
 	margin-bottom: 20px;
+}
+
+.Continue button:hover {
+	background-color: #bd202e;
+	color: white;
 }
 
 .credit {
@@ -1054,7 +1060,7 @@ textarea:focus {
 	background: #ededed;
 }
 
-input.submit {			/*Send*/
+input.submit {			
   width: 100px;
   height: 34px;
   float: right;
@@ -1065,6 +1071,8 @@ input.submit {			/*Send*/
   background: none;
   outline: none;
 }
+
+
 
 
 
