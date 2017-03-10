@@ -70,17 +70,6 @@ h1 {
 	text-decoration: underline;
 }
 
-/*thank you for your order page*/
-h1#thanks {														
-	font-family: "HaloHandletter", Helvetica, sans-serif;
-	font-size: 4rem;
-	margin-bottom: 20px;
-	margin-top: 120px;
-	text-align: center;
-	text-decoration: none;
-	color: red;
-}
-
 h2 {
 	font-family: "OpenSans-Light", sans-serif;
 	font-size: 1.2rem;
@@ -172,11 +161,11 @@ p#bag {
 }
 
 .selected {													/*font color changes indicates which page your on*/
-	color: #EFAE00;
+	color: #bd202e; 
 }
 
 .nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
-	color: #EFAE00;
+	color: #bd202e;
 }
 
 #revealonclick {
@@ -317,88 +306,7 @@ p#bag {
 	margin-top: 50%;
 }
 
-/*stamps*/
-.square {						
-	margin-left: 35%;
-	margin-right: 5%;
-	margin-top: 20%;
-	width: 100px;
-	height: 100px;
-	border:1px solid #000;
-}
 
-.input-field1 {
-	float: right;
-	max-width: 50%;
-	margin-left: 5%;
-	margin-right: 45%;
-	margin-top: 5%;
-	margin-bottom: 2%;
-	font-size: 0.95em;
-}
-
-.input-field2 {
-	float: right;
-	max-width: 50%;
-	margin-left: 5%;
-	margin-right: 45%;
-	margin-top: 0.5%;
-	margin-bottom: 2%;
-	font-size: 0.95em;
-}
-
-.input-field {
-	float: right;
-	max-width: 50%;
-	margin-left: 5%;
-	margin-right: 45%;
-	margin-top: 0.2%;
-	margin-bottom: 2%;
-	font-size: 0.95em;
-}
-
-.box {
-	width: 70%;
-	height: 50%;
-	margin-bottom: 5%;
-	margin-left: 15%;
-	margin-top: 2%;
-	border:1px solid gray;
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-top: 5%;
-}
-
-.checkoutnav {
-	font-family:"OpenSans-Semibold", sans-serif;
-	font-size: 1.2em;
-	width: 100%;
-	height: 80%;
-	padding-left: 3%;
-	padding-right: 5%;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	background-color: #FFEBCD;
-}
-
-/*button to click for next page*/
-.Continue {
-	display: inline-block;
-	text-decoration: none;							
-	font-family: "HaloHandletter", Helvetica, sans-serif;
-	font-size: 2em;					
-	position: right;
-	margin-left: 90%;
-	margin-right: 5%;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.credit {
-	width: 50%;
-	margin-left: 5%;
-	margin-top: 5%;
-}
 
 																/* Main Page */
 
@@ -743,18 +651,13 @@ button:hover button:active {
 
 .grid-row-3 {							
 	padding-left: 30%;
-	padding-right: 2%;
+	padding-right: 5%;
 	padding-top: 3%;
-	padding-bottom: 0%;
 }
 
 .grid-col-1of3-2 {
-	margin-top: 10%;
-	margin-left: 0%;
-	margin-right: 0%;
-	margin-bottom: 25%;
-	padding-right: 0%;
-	padding-left: 0%;
+	margin-top: 8%;
+	margin-bottom: 15%;
 }
 
 #order {
@@ -782,16 +685,243 @@ button:hover button:active {
 	border: 1.5px solid black;
 	display: inline-block;
 	font-family: "Lato", sans-serif;
-	width: 70%;
-	height: 50px; 
-	margin-left: 10%;
-	margin-top: 30%;
+	width: 80%;
+	height: 40px; 
+	margin-left: 6%;
+	margin-top: 2%;
 }
 
 .Addtocart button:hover {
-	background-color: #1F63B5;
+	background-color: #bd202e;
 	color: white;
 }
+
+.grid-col-1of3-2 .field {
+	margin-top: 35%;
+	margin-left: 5%;
+	margin-right: 20%;
+}
+
+.field .add {
+	height: 33px;
+	width: 15%;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.field .sub {
+	height: 8%;
+	width: 15%;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.field .field-input {
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    margin: 4px;
+    color: salmon;
+}
+
+
+																/* Checkout */
+.checkout {					/*container*/
+  position: relative;
+  width: 100%;
+  background: white;
+  overflow: hidden;
+  margin-bottom: 300px;  
+}
+
+.checkout .content {
+  position: relative;
+  width: 900px;
+/*  overflow: hidden;
+*/margin: 40px auto 65px auto;
+}
+
+.checkout h2 {
+	font-family: "Lato", sans-serif;
+	font-size: 32px;
+	color: black;
+	text-align: center;
+	margin-top: 120px;
+	letter-spacing: 6px;
+}
+
+.content-1 {
+	margin-top: -5%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.content-1 .Items-in-cart {
+	font-family: "Lato", sans-serif;
+	font-size: 18px;
+	margin-left: -28%;
+	letter-spacing: 0px;
+}
+
+.content-1 hr {
+	width: 71%;
+	border: 0.5px solid black;
+}
+
+.soda-bubble {
+	width: 134px;
+	height: 300px;
+	margin-top: 5%;
+	margin-right: 50%;
+	margin-left: 50%;
+}
+
+.grid-col-1of3-3 #check {			/*Soda with pearls*/
+	font-family: "Lato", sans-serif;
+	font-size: 15px;
+	margin-top: 40%;
+	margin-left: -29%;
+	letter-spacing: 0px;
+}
+
+.grid-col-1of3-3 .item-text {
+	font-family: "Lato", sans-serif;
+	color: black;
+	font-size: 12px;
+	margin-top: 5%;
+}
+
+.item-price h2 {
+	font-size: 1.05em; 
+	margin-top: 40%;
+	margin-left: -10%;
+}
+
+															/* Pay */
+
+.input-field1 {
+	font-family: "Lato", sans-serif;
+	font-size: 0.95em;
+	color: black;
+	float: right;
+	max-width: 50%;
+	margin-left: 5%;
+	margin-right: 45%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+
+.input-field2 {
+	font-family: "Lato", sans-serif;
+	font-size: 0.95em;
+	color: black;
+	float: right;
+	max-width: 50%;
+	margin-left: 5%;
+	margin-right: 45%;
+	margin-top: 0.5%;
+	margin-bottom: 2%;
+}
+
+.input-field {
+	font-family: "Lato", sans-serif;
+	font-size: 0.95em;
+	color: black;
+	float: right;
+	max-width: 50%;
+	margin-left: 5%;
+	margin-right: 45%;
+	margin-top: 0.2%;
+	margin-bottom: 2%;
+}
+
+.box {
+	width: 65%;
+	height: 60%;
+	margin-bottom: 5%;
+	margin-left: 20%;
+	margin-top: 0%;
+	border: 1px solid gray;
+	padding-left: 5%;
+	padding-right: 0%;
+	padding-top: 5%;
+}
+
+.payment-title {
+	font-family:'Lato', sans-serif;
+	font-size: 30px;
+	color: black;
+	margin-right: 45%;
+	margin-left: 45%;
+	margin-top: 120px;
+	margin-bottom: 25px;
+	letter-spacing: 6px;
+}
+
+.Continue {
+	display: inline-block;
+	text-decoration: none;							
+	font-family: "Lato", sans-serif;
+	font-size: 1em;					
+	position: right;
+	margin-left: 60%;
+	margin-right: 5%;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.credit {
+	width: 50%;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+
+															/*thank you for your order page*/
+h1#thanks {														
+	font-family: "HaloHandletter", Helvetica, sans-serif;
+	font-size: 3rem;
+	margin-bottom: 20px;
+	margin-top: 130px;
+	text-align: center;
+	text-decoration: none;
+	color: #bd202e;
+}
+
+																/* Stamps */
+.grid-row-stamps {
+	margin-top: -80px;
+	padding: 10%;
+}
+
+.square {						
+	margin-left: 35%;
+	margin-right: 5%;
+	margin-top: 20%;
+	width: 100px;
+	height: 100px;
+	border:1px solid #000;
+}
+
+.redeem {
+	font-size: 0.9em;
+	color: black;
+	background: white;
+	display: inline-block;
+	font-family: "Lato", sans-serif;
+	width: 30%;
+	height: 45px; 
+	margin-left: 40%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+.redeem button:hover {
+	background-color: #bd202e;
+	color: white;
+}
+
+
 
 
 																	/* Contact */
@@ -914,36 +1044,126 @@ input.submit {			/*Send*/
   text-align: right;
   background: none;
   outline: none;
- /* -webkit-transition: all 0.6s ease-in;
-	-moz-transition: all 0.6s ease-in;
-	-ms-transition: all 0.6s ease-in;
-	-o-transition: all 0.6s ease-in;
-	transition: all 0.6s ease-in;*/
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 
 															/* Style Guide */
+.style-guide {
+	margin-top: 5%;
+	font-size: 2em;
+	font-family: "Lato", sans-serif;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+}
+
+#logo-text {
+	font-family: "Lato", sans-serif;
+	font-size: 1.5em;
+}
+
+.font {
+	font-family: "Lato", sans-serif;
+	font-size: 1.5em;
+}
+
+.font#font-text {
+	font-family: "Lato", sans-serif;
+}
+
+#images {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*color palette boxes*/
+#square1 {
+	border-radius: 10px;
+	margin: 20px; 
+	float:left;
+	position: relative;
+	width: 120px;
+	height: 120px;
+	background: #333;
+}
+
+#square2 {
+	border-radius: 10px;
+	margin: 20px; 
+	float:left;
+	position: relative;
+	width: 120px;
+	height: 120px;
+	background:  #FFEBCD;
+}
+
+#square3 {
+	border-radius: 10px;
+	margin: 20px; 
+	float:left;
+	position: relative;
+	width: 120px;
+	height: 120px;
+	background: #BD202E;
+}
+
+#square4 {
+	border-radius: 10px;
+	margin: 20px; 
+	float:left;
+	position: relative;
+	width: 120px;
+	height: 120px;
+	background:  #00746C;
+}
+
+#square5 {
+	border-radius: 10px;
+	margin: 20px; 
+	float:left;
+	position: relative;
+	width: 120px;
+	height: 120px;
+	background: #5F5A59;
+}
+
+#content {		/*text inside of the color palette boxes*/
+	font-family: OpenSans-Light, sans-serif;
+	position: relative;
+	margin-top: 90px;
+	margin-left: 25px;
+	color: white;
+}
+
+#content-1 {		
+	font-family: OpenSans-Light, sans-serif;
+	position: relative;
+	margin-top: 90px;
+	margin-left: 25px;
+	color: #333;
+}
+
+.grid-col-1of9 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.grid-row-style {
+	padding: 2%;
+}
 
 .para {
 	margin-top: 0.5rem;
 }
 
 .styleheader {
-	font-family: "HaloHandletter", Helvetica, sans-serif;
+	font-family: "Lato", sans-serif;
 	font-size: 2rem;
 	margin-bottom: 0;
 	width: 100%;
@@ -989,8 +1209,8 @@ input.submit {			/*Send*/
 /* Styling for the navigation button */
 .button-nav {
   	display: inline-block;
-	font-family: "HaloHandletter", Helvetica, sans-serif;
-	font-size: 2.1rem;
+	font-family: "Lato", sans-serif;
+	font-size: 1.5rem;
 	font-weight: 600;
 	padding-top: 0.02rem;
 	text-decoration: none;
@@ -1000,14 +1220,14 @@ input.submit {			/*Send*/
 }
 
 .button-nav:hover, .button-nav:focus {
-  color: #FFEBCD;
+  color: #BD202E;
 }
 
 .in-textlink{
-	color: red;
+	color: #BD202E;
 	text-decoration: none;
-	font-family: "HaloHandletter", Helvetica, sans-serif;
-	font-size: 2em;
+	font-family: "Lato", sans-serif;
+	font-size: 1.5em;
 }
 
 .in-textlink:hover {
@@ -1016,55 +1236,61 @@ input.submit {			/*Send*/
 }
 
 .button-submit, .button-reset {
-  display: inline-block;
-	font-family: "HaloHandletter", Helvetica, sans-serif;
-	font-size: 2.1rem;
-	font-weight: 600;
-	padding-top: 0.02rem;
-	text-decoration: none;
-	width: 100%;
-	text-align: left;
+	font-size: 1em;
 	color: black;
+	background: white;
+	border: 1.5px solid black;
+	display: inline-block;
+	font-family: "Lato", sans-serif;
+	width: 10%;
+	height: 40px; 
+	padding-left: 35px;
+	padding-top: 10px;
+	margin-left: 6%;
+	margin-top: 2%;
 }
 
 .button-submit:hover, .button-submit:focus, 
 .button-reset:hover, .button-reset:focus {
-	text-decoration: none;
-	color: #FFEBCD;
+	background-color: #BD202E;
+	color: white;
 }
 
-.input-field{
+.input-field {
+
 }
 
 .h1-head {
 	font-size: 2.5rem;
-	font-family: "HaloHandletter", Helvetica, sans-serif;
+	font-family: "Lato", sans-serif;
 	color: black;
 	text-decoration: none;
 }
 
 .h2-head {
 	font-size: 1.2rem;
-	font-family: "OpenSans-Semibold", sans-serif;
+	font-family: "Lato", sans-serif;
 	color: black;
-	margin-left: 7%;
 }
 
 .h3-head {
 	font-size: 1rem;
-	font-family: "OpenSans-Semibold", sans-serif;
+	font-family: "Lato", sans-serif;
 	color: black;
 }
 
 .bullet-list, .number-list {
 	font-family: "OpenSans-Light", sans-serif;
-	margin-left: 5%;
 }
 
 .p-body {
 	font-family: "OpenSans-Light", sans-serif;
-	margin-left: 8%;
+	margin-top: 30px;
 
+}
+
+#product-listings {
+	margin-bottom: 40px;
 }
 
 div#cite {
@@ -1072,3 +1298,9 @@ div#cite {
 	margin-left: 5%;
 	font-size: 0.8em;
 }
+
+
+
+
+
+

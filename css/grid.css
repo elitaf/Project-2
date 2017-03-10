@@ -4,13 +4,7 @@
 	box-sizing: border-box;
 }
 
-.grid-row::after {
-	content: "";
-	display: block;
-	clear: both;
-}
-
-.grid-row-1::after {
+.grid-row::after, .grid-row-1::after, .grid-row-3::after {
 	content: "";
 	display: block;
 	clear: both;
@@ -21,31 +15,27 @@
 	padding: 0;
 }
 
-.grid-col-1of5 {
+.grid-col-1of9 {
+	width: 11.111%
+}
+
+.grid-col-1of6 {
+	width: 16.6667%
+}
+
+.grid-col-1of5, .grid-col-1of5-1 {
 	width: 20%;
 }
 
-.grid-col-1of5-1 {
-	width: 20%;
-}
-
-.grid-col-1of4 {
+.grid-col-1of4, .grid-col-1of4-1, .grid-col-1of4-bbt {
 	width: 25%;
 }
 
-.grid-col-1of4-1 {
-	width: 25%;
-}
-
-.grid-col-1of4-bbt {
-	width: 25%;
-}
-
-.grid-col-1of3 {
+.grid-col-1of3, .grid-col-1of3-1, .grid-col-1of3-2, .grid-col-1of3-3 {
 	width: 33.333%;
 }
 
-.grid-col-1of2 {
+.grid-col-1of2, .grid-col-2of2, .grid-col-2of3 {
 	width: 50%;
 }
 
@@ -56,27 +46,27 @@
 
 @media (min-width: 48.75em) {
 
-	.grid-col-1of5, .grid-col-2of5, .grid-col-3of5, .grid-col-4of5, .grid-col-5of5 {
+	.grid-col-1of9 {
+	width: 11.111%
+}
+
+	.grid-col-1of6 {
+	width: 16.6667%
+}
+
+	.grid-col-1of5, .grid-col-1of5-1  {
 		width: 20%;
 	}
 
-	.grid-col-1of5-1 {
-		width: 20%;
-	}
-
-	.grid-col-1of4 {			
+	.grid-col-1of4, .grid-col-1of4-bbt {			
 		width: 25%;
 	}
 
-	.grid-col-1of4-bbt {
-	width: 25%;
-	}
-
-	.grid-col-1of3, .grid-col-1of3-1 {
+	.grid-col-1of3, .grid-col-1of3-1, .grid-col-1of3-2, .grid-col-1of3-3 {
 		width: 33.333%;
 	}
 
-	.grid-col-1of2, .grid-col-2of2 {
+	.grid-col-1of2, .grid-col-2of2, .grid-col-2of3 {
 		width: 50%;
 	}
 
@@ -87,27 +77,27 @@
 
 @media (max-width: 48.75em) {
 
-	.grid-col-1of5, .grid-col-2of5, .grid-col-3of5, .grid-col-4of5, .grid-col-5of5 {
+	.grid-col-1of9 {
+	width: 100%
+}
+
+	.grid-col-1of6 {
+		width: 100%
+	}
+
+	.grid-col-1of5, .grid-col-1of5-1 {
 		width: 100%;
 	}
 
-	.grid-col-1of5-1 {
+	.grid-col-1of4, .grid-col-1of4-bbt {			
 		width: 100%;
 	}
 
-	.grid-col-1of4 {			
+	.grid-col-1of3, .grid-col-1of3-1, .grid-col-1of3-2, .grid-col-1of3-3 {
 		width: 100%;
 	}
 
-	.grid-col-1of4-bbt {
-		width: 100%;
-	}
-
-	.grid-col-1of3, .grid-col-1of3-1 {
-		width: 100%;
-	}
-
-	.grid-col-1of2, .grid-col-2of2 {
+	.grid-col-1of2, .grid-col-2of2, .grid-col-2of3 {
 		width: 100%;
 	}
 
