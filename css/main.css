@@ -82,12 +82,6 @@ h3 {
 	margin-bottom: 0;
 }
 
-/*h4 {
-	font-size: 2rem;
-	font-family: "HaloHandletter", Helvetica, sans-serif;
-	margin-bottom: 0rem;
-}*/
-
 element.style {
 	clear: both;
 }
@@ -209,22 +203,23 @@ p#bag {
 }
 
 
-.Nextbutton button {		
+.Nextbutton {		
 	background-color: white;
 	color: black;
-	width: 160%;
+	width: 40%;
 	height: 40px;
+	border: 1px solid black;
 	font-family: "Lato", sans-serif;
 	font-size: 0.5em;					
 	display: inline-block;
 	position: right;
-	margin-left: -70%;
+	margin-left: 0%;
 	margin-right: 0%;
 	margin-top: 0%;
 	margin-bottom: 15%;
 }
 
-.Nextbutton button:hover {
+.Nextbutton:hover {
 	color: white;
 	background-color: #bd202e; 
 }
@@ -236,14 +231,6 @@ p#bag {
 	width: 70%;
 	height: 100%;
 }
-
-/*.sodabubble {
-	border: none;
-	margin-left: 15%;
-	margin-right: 15%;
-	width: 70%;
-	height: 100%;
-}*/
 
 .grid-col-1of2#ordertea {
 	width: 100%;
@@ -259,7 +246,7 @@ p#bag {
 .PlaceOrder {
 	display: inline-block;
 	text-decoration: none;							
-	font-family: "HaloHandletter", Helvetica, sans-serif;
+	font-family: "Lato", sans-serif;
 	font-size: 2em;					
 	position: right;
 	margin-left: 50%;
@@ -358,7 +345,7 @@ p#bag {
 	}
 }
 
-p#main {
+p#main-1 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 200;
 	position: relative;
@@ -460,45 +447,19 @@ p#main {
     color: red;
 }
 
+.item-details .item-title {
+	color: black;
+}
+
+.item-details .item-title:hover {
+	color: red;
+}
+
 /*product description*/
 .feature-details .item-description {			
     font-size: .8125em;
     padding-top: 12px;
     padding-bottom: 40px;
-}
-
-/*.container-fluid {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}*/
-
-/*.feature-details .col-2:first-child .item:hover, .col-2:nth-child(2) .item:hover, .col-2:nth-child(3) .item:hover {
-    background: #EFAE00;
-}*/
-
-/*.service-details .item:hover .item-icon,
-.service-details .item:hover .item-description {
-    color: #ffffff;
-}*/
-
-/*@media screen and (min-width: 901px) and (max-width: 992px) {
-    .service-details .item {
-        margin: 15px 0px;
-    }
-}
-
-@media screen and (min-width: 801px) and (max-width: 900px) {
-    .service-details .item {
-        margin: 15px 0px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 800px) {
-	.service-details .item {
-        margin: 15px 0px;
-    }
 }
 
 @media screen and (max-width: 767px) {
@@ -535,10 +496,12 @@ p#main {
 .grid-row-1 .Nextbutton {
 	display: inline-block;
 	text-decoration: none;											
-	font-family: "HaloHandletter", sans-serif;
-	font-size: 2em;					
+	font-family: "Lato", sans-serif;
+	font-size: 1em;					
 	position: right;
-	margin-left: 70%;
+	padding-left: 25px;
+	padding-top: 10px;
+	margin-left: 50%;
 	margin-right: 20%;
 	margin-top: 60px;
 	margin-bottom: 15px;
@@ -610,22 +573,25 @@ button:hover button:active {
 }
 
 
-.Nextbutton_op button {		
+.Nextbutton_op {		
 	background-color: white;
 	color: black;
 	width: 50%;
 	height: 40px;
+	border: 1px solid black;
 	font-family: "Lato", sans-serif;
 	font-size: 0.9em;					
 	display: inline-block;
 	position: right;
+	padding-left: 35px;
+	padding-top: 10px;
 	margin-left: 25%;
 	margin-right: 0%;
 	margin-top: 20%;
 	margin-bottom: 15%;
 }
 
-.Nextbutton_op button:hover {
+.Nextbutton_op:hover {
 	color: white;
 	background-color: #bd202e; 
 }
@@ -677,20 +643,22 @@ button:hover button:active {
 	padding-right: 0px;
 }
 
-.Addtocart button {
+.Addtocart {
 	font-size: 0.9em;
 	color: black;
 	background: white;
-	border: 1.5px solid black;
+	border: 1px solid black;
 	display: inline-block;
 	font-family: "Lato", sans-serif;
 	width: 80%;
 	height: 40px; 
+	padding-top: 11px;
+	padding-left: 50px;
 	margin-left: 6%;
 	margin-top: 2%;
 }
 
-.Addtocart button:hover {
+.Addtocart:hover {
 	background-color: #bd202e;
 	color: white;
 }
@@ -726,18 +694,17 @@ button:hover button:active {
 
 																/* Checkout */
 .checkout {					/*container*/
-  position: relative;
-  width: 100%;
-  background: white;
-  overflow: hidden;
-  margin-bottom: 300px;  
+	position: relative;
+	width: 100%;
+	background: white;
+	overflow: hidden;
+	margin-bottom: 300px;  
 }
 
 .checkout .content {
-  position: relative;
-  width: 900px;
-/*  overflow: hidden;
-*/margin: 40px auto 65px auto;
+	position: relative;
+	width: 900px;
+	margin: 40px auto 65px auto;
 }
 
 .checkout h2 {
@@ -796,22 +763,25 @@ button:hover button:active {
 	margin-left: -10%;
 }
 
-.Next-checkout button {
+.Next-checkout {
 	background-color: white;
 	color: black;
-	width: 15%;
+	border: 1px solid black;
+	width: 20%;
 	height: 50px;
 	font-family: "Lato", sans-serif;
 	font-size: 1em;					
 	display: inline-block;
 	position: right;
-	margin-left: 68%;
+	padding-top: 15px;
+	padding-left: 25px;
+	margin-left: 63%;
 	margin-right: 0%;
-	margin-top: 2%;
+	margin-top: 0%;
 	margin-bottom: 15%;
 }
 
-.Next-checkout button:hover {
+.Next-checkout:hover {
 	color: white;
 	background-color: #bd202e; 
 }
@@ -877,21 +847,23 @@ button:hover button:active {
 	letter-spacing: 6px;
 }
 
-.Continue button {
+.Continue {
 	display: inline-block;
-	text-decoration: none;	
+	border: 1px solid black;	
 	width: 60%;
 	height: 45px; 						
 	font-family: "Lato", sans-serif;
 	font-size: 1em;					
 	position: right;
+	padding-top: 13px;
+	padding-left:140px;
 	margin-left: 20%;
 	margin-right: 20%;
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
 
-.Continue button:hover {
+.Continue:hover {
 	background-color: #bd202e;
 	color: white;
 }
@@ -933,16 +905,19 @@ h1#thanks {
 	font-size: 0.9em;
 	color: black;
 	background: white;
+	border: 1px solid black;
 	display: inline-block;
 	font-family: "Lato", sans-serif;
-	width: 30%;
+	width: 25%;
 	height: 45px; 
+	padding-top: 14px;
+	padding-left: 80px;
 	margin-left: 40%;
 	margin-top: 5%;
 	margin-bottom: 10%;
 }
 
-.redeem button:hover {
+.redeem:hover {
 	background-color: #bd202e;
 	color: white;
 }
@@ -961,81 +936,80 @@ h1#thanks {
 }
 
 .contact .content {
-  position: relative;
-  width: 900px;
-/*  overflow: hidden;
-*/margin: 40px auto 65px auto;
-}
+	position: relative;
+	width: 900px;
+	margin: 40px auto 65px auto;
+	}
 
 .contact h2 {
-  font-size: 32px;
-  color: black;
-  text-align: center;
-  margin-top: 120px;
-  letter-spacing: 6px;
+	font-size: 32px;
+	color: black;
+	text-align: center;
+	margin-top: 120px;
+	letter-spacing: 6px;
 }
 
 .contact .content .form {
-  width: 455px;
-  overflow: hidden;
-  height: auto;
-  float: left;
+	width: 455px;
+	overflow: hidden;
+	height: auto;
+	float: left;
 }
 
 .contact .content .form .column {
-  width: 180px;
-  overflow: hidden;
-  height: auto;
-  float: left;
-  letter-spacing: 1px;
-  margin-bottom: 30px;
+	width: 180px;
+	overflow: hidden;
+	height: auto;
+	float: left;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
 }
 
 .contact .content .form .column-2 {
-  width: 210px;
-  padding-left: 60px;
-  overflow: hidden;
-  height: auto;
-  float: left;
-  letter-spacing: 1px;
-  margin-bottom: 30px;  
+	width: 210px;
+	padding-left: 60px;
+	overflow: hidden;
+	height: auto;
+	float: left;
+	letter-spacing: 1px;
+	margin-bottom: 30px;  
 }
 
 .contact .content .form .column-3 {
-  width: 450px;
-  overflow: hidden;
-  height: auto;
-  float: left;
-  letter-spacing: 1px;
+	width: 450px;
+	overflow: hidden;
+	height: auto;
+	float: left;
+	letter-spacing: 1px;
 }
 
 .contact .content .contact-text {
-  width: 340px;
-  float: left;
-  padding-left: 40px;
-  color: black;
-  font-size: 14px;
-  overflow: hidden;
-  font-weight: 400;
-  line-height: 26px;
+	width: 340px;
+	float: left;
+	padding-left: 40px;
+	color: black;
+	font-size: 14px;
+	overflow: hidden;
+	font-weight: 400;
+	line-height: 26px;
 }
 
 strong {
-  font-weight: 700;
+	font-weight: 700;
 }
 
 input {						/*name and email box*/
-  width: 180px;
-  height: 40px;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  background: #f8f7f7;
-  border: none;
-  outline: none;
-  color: #333;
-  font-weight: 300;
-  padding-left: 15px;
-  margin-bottom: 10px;
+	width: 180px;
+	height: 40px;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	background: #f8f7f7;
+	border: none;
+	outline: none;
+	color: #333;
+	font-weight: 300;
+	padding-left: 15px;
+	margin-bottom: 10px;
 }
 
 input:focus {
@@ -1043,17 +1017,17 @@ input:focus {
 }
 
 textarea {					/*Message box*/
-  width: 420px;
-  height: 150px;
-  padding: 15px 0 0 15px;
-  background: #f8f7f7;
-  color: #333;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  margin-bottom: 10px;
-  outline: none;
-  border: none;
+	  width: 420px;
+	  height: 150px;
+	  padding: 15px 0 0 15px;
+	  background: #f8f7f7;
+	  color: #333;
+	  font-family: 'Lato', sans-serif;
+	  font-size: 14px;
+	  font-weight: 300;
+	  margin-bottom: 10px;
+	  outline: none;
+	  border: none;
 }
 
 textarea:focus {
@@ -1061,15 +1035,15 @@ textarea:focus {
 }
 
 input.submit {			
-  width: 100px;
-  height: 34px;
-  float: right;
-  margin: 20px 10px 0 0;
-  border: 0;
-  font-weight: 800;
-  text-align: right;
-  background: none;
-  outline: none;
+	width: 100px;
+	height: 34px;
+	float: right;
+	margin: 20px 10px 0 0;
+	border: 0;
+	font-weight: 800;
+	text-align: right;
+	background: none;
+	outline: none;
 }
 
 
@@ -1161,7 +1135,7 @@ input.submit {
 	background: #5F5A59;
 }
 
-#content {		/*text inside of the color palette boxes*/
+#content-0, #content-2, #content-3, #content-4  {		/*text inside of the color palette boxes*/
 	font-family: OpenSans-Light, sans-serif;
 	position: relative;
 	margin-top: 90px;
@@ -1322,8 +1296,9 @@ input.submit {
 }
 
 div#cite {
-	margin-top: 2%;
+	margin-top: 5%;
 	margin-left: 5%;
+	margin-bottom: 10%;
 	font-size: 0.8em;
 }
 
