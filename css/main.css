@@ -241,6 +241,11 @@ a:active, a:hover, a:focus {
 	color: black;
 }
 
+.selected {													/*font color changes indicates which page your on*/
+	color: #EFAE00;
+}
+
+
 .aboutus {													/*on about us page, font color indicates*/
 	display: inline-block;
 	font-family: "HaloHandletter", Helvetica, sans-serif;
