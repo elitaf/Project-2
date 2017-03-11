@@ -117,28 +117,17 @@ a:active, a:hover, a:focus {
 	width: 90px;
 	margin-top: 30px;
 	margin-bottom: 5px;
-	margin-left: 50%;
+	margin-left: 40%;
 }
 
 /*Bag icon*/
 img#bagicon {								
 	width: 18px;
 	height: 18px;
-	margin-left: 85%;
+	margin-left: 50%;
 	margin-top: 3%;
 	margin-bottom: 7%;
-	margin-right: 50%;
-	outline: none;
-}
-
-p#bag {
-	font-size: 0.7em;
-	font-weight: 600;
-	color: black;
-	margin-left: 100%;
-	margin-right: 100%;
-	margin-top: -17%;
-	margin-bottom: 0%;
+	margin-right: 0%;
 	outline: none;
 }
 
@@ -418,8 +407,8 @@ p#main-1 {
 	font-family:'Lato', sans-serif;
 	font-size: 30px;
 	color: black;
-	margin-right: 30%;
-	margin-left: 30%;
+	padding-left: 20%;
+	padding-right: 20%;
 	margin-top: 120px;
 	margin-bottom: 25px;
 	letter-spacing: 6px;
@@ -488,8 +477,8 @@ p#main-1 {
 	height: 100%;
 	opacity: 100; 
 	margin-top: 5px;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
 	padding-bottom: 15%;
 }
 
@@ -620,6 +609,8 @@ button:hover button:active {
 	padding-top: 3%;
 }
 
+
+
 .grid-col-1of3-2 {
 	margin-top: 8%;
 	margin-bottom: 15%;
@@ -632,15 +623,16 @@ button:hover button:active {
 	color: black;
 	padding-top: 33px;
 	padding-bottom: 8px;
-	padding-left: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .ordertext {
 	color: black;
 	font-size: 0.85em;
 	margin-top: 5%;
-	padding-left: 15px;
-	padding-right: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .Addtocart {
@@ -651,9 +643,10 @@ button:hover button:active {
 	display: inline-block;
 	font-family: "Lato", sans-serif;
 	width: 80%;
-	height: 40px; 
-	padding-top: 11px;
-	padding-left: 50px;
+	height: 45px; 
+	padding-top: 12px;
+	padding-left: 12px;
+	padding-right: 12px;
 	margin-left: 6%;
 	margin-top: 2%;
 }
@@ -725,12 +718,11 @@ button:hover button:active {
 .content-1 .Items-in-cart {
 	font-family: "Lato", sans-serif;
 	font-size: 18px;
-	margin-left: -28%;
 	letter-spacing: 0px;
 }
 
 .content-1 hr {
-	width: 71%;
+	width: 80%;
 	border: 0.5px solid black;
 }
 
@@ -738,21 +730,24 @@ button:hover button:active {
 	width: 134px;
 	height: 300px;
 	margin-top: 5%;
-	margin-right: 50%;
-	margin-left: 50%;
+	margin-right: 30%;
+	margin-left: 33%;
+
 }
 
 .grid-col-1of3-3 #check {			/*Soda with pearls*/
 	font-family: "Lato", sans-serif;
 	font-size: 15px;
 	margin-top: 40%;
-	margin-left: -29%;
-	letter-spacing: 0px;
+	padding-left: 0%;
+	padding-right: 10%;
 }
 
 .grid-col-1of3-3 .item-text {
 	font-family: "Lato", sans-serif;
 	color: black;
+	padding-left: 10%;
+	padding-right: 10%;
 	font-size: 12px;
 	margin-top: 5%;
 }
@@ -760,24 +755,25 @@ button:hover button:active {
 .item-price h2 {
 	font-size: 1.05em; 
 	margin-top: 40%;
-	margin-left: -10%;
+	margin-left: -5%;
 }
 
 .Next-checkout {
 	background-color: white;
 	color: black;
 	border: 1px solid black;
-	width: 20%;
-	height: 50px;
+	width: 25%;
+	height: 60px;
 	font-family: "Lato", sans-serif;
-	font-size: 1em;					
+	font-size: 0.8em;					
 	display: inline-block;
-	position: right;
-	padding-top: 15px;
-	padding-left: 25px;
-	margin-left: 63%;
+	padding-top: 2%;
+	padding-left: 6%;
+	padding-right: 6%;
+	padding-bottom: 2%;
+	margin-left: 30%;
 	margin-right: 0%;
-	margin-top: 0%;
+	margin-top: 10%;
 	margin-bottom: 15%;
 }
 
