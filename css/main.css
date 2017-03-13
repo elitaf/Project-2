@@ -334,6 +334,11 @@ img#bagicon {
 	}
 }
 
+.innerbox h2 {
+	color: white;
+	font-weight: 100;
+}
+
 p#main-1 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 200;
@@ -407,8 +412,8 @@ p#main-1 {
 	font-family:'Lato', sans-serif;
 	font-size: 30px;
 	color: black;
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 30%;
+	padding-right: 25%;
 	margin-top: 120px;
 	margin-bottom: 25px;
 	letter-spacing: 6px;
@@ -488,8 +493,8 @@ p#main-1 {
 	font-family: "Lato", sans-serif;
 	font-size: 1em;					
 	position: right;
-	padding-left: 25px;
-	padding-top: 10px;
+	padding-left: 35px;
+	padding-top: 12px;
 	margin-left: 50%;
 	margin-right: 20%;
 	margin-top: 60px;
@@ -604,7 +609,7 @@ button:hover button:active {
 																	/* Order */
 
 .grid-row-3 {							
-	padding-left: 30%;
+	padding-left: 25%;
 	padding-right: 5%;
 	padding-top: 3%;
 }
@@ -644,9 +649,9 @@ button:hover button:active {
 	font-family: "Lato", sans-serif;
 	width: 80%;
 	height: 45px; 
-	padding-top: 12px;
-	padding-left: 12px;
-	padding-right: 12px;
+	padding-top: 14px;
+	padding-left: 50px;
+	padding-right: 10px;
 	margin-left: 6%;
 	margin-top: 2%;
 }
@@ -825,10 +830,9 @@ button:hover button:active {
 	height: 60%;
 	margin-bottom: 5%;
 	margin-left: 20%;
-	margin-top: 0%;
 	border: 1px solid gray;
 	padding-left: 5%;
-	padding-right: 0%;
+	padding-right: 5%;
 	padding-top: 5%;
 }
 
@@ -836,30 +840,31 @@ button:hover button:active {
 	font-family:'Lato', sans-serif;
 	font-size: 30px;
 	color: black;
-	margin-right: 45%;
-	margin-left: 45%;
+	padding-left: 45%;
+	padding-right: 45%;
 	margin-top: 120px;
 	margin-bottom: 25px;
 	letter-spacing: 6px;
 }
 
-.Continue {
+.Complete {
 	display: inline-block;
 	border: 1px solid black;	
 	width: 60%;
 	height: 45px; 						
 	font-family: "Lato", sans-serif;
-	font-size: 1em;					
+	font-size: 0.9em;					
 	position: right;
-	padding-top: 13px;
-	padding-left:140px;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 	margin-left: 20%;
-	margin-right: 20%;
-	margin-top: 10px;
+/*	margin-right: 20%;
+*/	margin-top: 10px;
 	margin-bottom: 20px;
 }
 
-.Continue:hover {
+.Complete:hover {
 	background-color: #bd202e;
 	color: white;
 }
