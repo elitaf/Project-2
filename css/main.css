@@ -117,7 +117,7 @@ a:active, a:hover, a:focus {
 	width: 90px;
 	margin-top: 30px;
 	margin-bottom: 5px;
-	margin-left: 40%;
+	margin-left: 45%;
 }
 
 /*Bag icon*/
@@ -850,17 +850,15 @@ button:hover button:active {
 .Complete {
 	display: inline-block;
 	border: 1px solid black;	
-	width: 60%;
+	width: 65%;
 	height: 45px; 						
 	font-family: "Lato", sans-serif;
 	font-size: 0.9em;					
-	position: right;
-	padding-top: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-top: 12px;
+	padding-left: 20%;
+	padding-right: 20%;
 	margin-left: 20%;
-/*	margin-right: 20%;
-*/	margin-top: 10px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 }
 
